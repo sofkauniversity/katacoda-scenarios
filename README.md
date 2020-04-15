@@ -1,10 +1,4 @@
-# Interactive Katacoda Scenarios
+## Katacoda Scenario Examples
 
-[![](http://shields.katacoda.com/katacoda/sofkau/count.svg)](https://www.katacoda.com/sofkau "Get your profile on Katacoda.com")
+View the examples at https://katacoda.com/scenario-examples
 
-Visit https://www.katacoda.com/sofkau to view the profile and interactive scenarios
-
-### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
-
-For examples, visit https://github.com/katacoda/scenario-example
