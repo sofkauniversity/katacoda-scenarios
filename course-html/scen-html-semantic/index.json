@@ -43,7 +43,7 @@
     }
   },
   "assets": {
-    "client": [
+    "host01": [
       {"file": "app.js", "target": "/home/scrapbook/tutorial/"}
     ]
   },
@@ -58,7 +58,7 @@
     "idePort": 23000,
     "uieditorpath": "/home/scrapbook/tutorial/",
     "dashboards": [
-      {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+      {"name": "Port 80", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
     ],
     "uilayout": "terminal-iframe"
   },
