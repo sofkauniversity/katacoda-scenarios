@@ -41,7 +41,7 @@
       "text": "finish.md"
     }
   },
-  "asyncFiles": ["index.html"],
+  "files": ["index.html"],
   "environment": {
     "uieditorpath": "/root/example",
     "showide": true,
