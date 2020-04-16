@@ -42,12 +42,12 @@
     }
   },
   "assets": {
-    "host01": [
-      {"file": "index.html", "target": "/home/scrapbook/tutorial"}
+    "client": [
+      {"file": "index.html", "target": "/home/scrapbook/tutorial/"}
     ]
   },
   "environment": {
-    "uieditorpath": "/home/scrapbook/tutorial",
+    "uieditorpath": "/home/scrapbook/tutorial/",
     "showide": true,
     "showdashboards": true,
     "idePort": 23000,
