@@ -41,9 +41,13 @@
       "text": "finish.md"
     }
   },
-  "files": ["index.html"],
+  "assets": {
+    "host01": [
+      {"file": "index.html", "target": "/home/scrapbook/tutorial"}
+    ]
+  },
   "environment": {
-    "uieditorpath": "/root/example",
+    "uieditorpath": "/home/scrapbook/tutorial",
     "showide": true,
     "showdashboards": true,
     "idePort": 23000,
