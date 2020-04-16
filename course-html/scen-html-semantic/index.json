@@ -42,9 +42,12 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal-split"
+    "uieditorpath": "/root/example",
+    "showide": true,
+    "idePort": 23000,
+    "uilayout": "terminal-iframe-split"
   },
   "backend": {
-    "imageid": "vscode"
+    "imageid": "ubuntu"
   }
 }
