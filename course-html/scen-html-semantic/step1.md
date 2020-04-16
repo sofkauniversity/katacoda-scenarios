@@ -9,3 +9,5 @@ Si queremos que la línea sea independiente de otras, podemos especificar que es
 <pre class="file" data-filename="index.html" data-target="replace">
 &lt;p&gt;Programar html es divertido&lt;/p&gt;
 </pre>
+
+`index.html`{{open}}

@@ -42,12 +42,12 @@
     }
   },
   "assets": {
-    "client": [
+    "host01": [
       {"file": "index.html", "target": "/home/scrapbook/tutorial/"}
     ]
   },
   "files": [
-    "app.js"
+    "app.js,  index.js"
   ],
   "environment": {
     "uieditorpath": "/home/scrapbook/tutorial/",
