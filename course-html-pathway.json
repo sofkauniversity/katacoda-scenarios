@@ -1,0 +1,11 @@
+{
+  "title": "Html",
+  "description": "Curso básico de HTML",
+  "courses": [
+    {
+      "course_id": "scen-html-semantic",
+      "title": "Semantica Html",
+      "description": "Ejercicio básico de semantica HTML"
+    }
+  ]
+}
