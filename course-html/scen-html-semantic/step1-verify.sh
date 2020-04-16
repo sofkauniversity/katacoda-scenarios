@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/tutorial/index.html ] && echo "done"
+[ -f /home/scrapbook/tutorial/index.html ] && grep -Fxq "<p>Programar html es divertido</p>" /home/scrapbook/tutorial/index.html && echo "done"
