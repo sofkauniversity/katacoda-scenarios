@@ -46,6 +46,9 @@
       {"file": "index.html", "target": "/home/scrapbook/tutorial/"}
     ]
   },
+  "files": [
+    "app.js"
+  ],
   "environment": {
     "uieditorpath": "/home/scrapbook/tutorial/",
     "showide": true,
