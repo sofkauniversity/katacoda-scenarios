@@ -43,7 +43,7 @@
     }
   },
   "assets": {
-    "host01": [
+    "client": [
       {"file": "app.js", "target": "/home/scrapbook/tutorial/"}
     ]
   },
@@ -51,16 +51,18 @@
     "index.html"
   ],
   "environment": {
-    "uieditorpath": "/home/scrapbook/tutorial/",
     "showide": true,
     "showdashboards": true,
+    "delayToSaveFileAfterStopTypingMilliseconds": 2000,
+    "autoFormatEnable": false,
     "idePort": 23000,
+    "uieditorpath": "/home/scrapbook/tutorial/",
     "dashboards": [
       {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
     ],
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "vscode"
+    "imageid": "ubuntu"
   }
 }
