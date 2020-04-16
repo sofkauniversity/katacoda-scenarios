@@ -43,11 +43,11 @@
   },
   "assets": {
     "host01": [
-      {"file": "index.html", "target": "/home/scrapbook/tutorial/"}
+      {"file": "app.js", "target": "/home/scrapbook/tutorial/"}
     ]
   },
   "files": [
-    "app.js,  index.js"
+    "index.html"
   ],
   "environment": {
     "uieditorpath": "/home/scrapbook/tutorial/",
