@@ -6,6 +6,6 @@ Programar html es divertido
 
 Si queremos que la línea sea independiente de otras, podemos especificar que es un párrafo encerrándola con una etiqueta de elemento de párrafo p
 
-<pre class="file hljs cs" data-filename="index.html" data-target="replace">
+<pre class="file hljs cs" data-filename="/home/scrapbook/tutorial/index.html" data-target="replace">
 &lt;p&gt;Programar html es divertido&lt;/p&gt;
 </pre>
