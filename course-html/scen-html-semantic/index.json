@@ -44,11 +44,14 @@
   "environment": {
     "uieditorpath": "/root/example",
     "showide": true,
-    "idePort": 23000,
     "showdashboards": true,
+    "idePort": 23000,
+    "dashboards": [
+      {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+    ],
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "node"
+    "imageid": "vscode"
   }
 }
