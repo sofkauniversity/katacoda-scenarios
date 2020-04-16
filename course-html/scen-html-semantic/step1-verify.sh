@@ -1,0 +1,1 @@
+[ -d /home/scrapbook/tutorial/index.html ] && echo "done"
