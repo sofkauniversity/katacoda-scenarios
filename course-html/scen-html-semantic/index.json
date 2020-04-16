@@ -60,6 +60,6 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "vscode"
+    "imageid": "ubuntu"
   }
 }
