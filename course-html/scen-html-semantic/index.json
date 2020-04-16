@@ -45,9 +45,10 @@
     "uieditorpath": "/root/example",
     "showide": true,
     "idePort": 23000,
-    "uilayout": "terminal-iframe-split"
+    "showdashboards": true,
+    "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "node"
   }
 }
