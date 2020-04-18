@@ -9,22 +9,24 @@ Las partes principales de la etiquetas HTML son:
 Etiqueta de apertura -->&lt;p&gt; Contenido &lt;/p&gt;<-- Etiqueta de cierre
 </pre>
 
+<pre>
 >>Q1: Seleccione las etiquetas de apertura correctas <<
-[*] <body>
-[*] <span>
-[ ] </span>
-[ ] <img/>
-[*] <form>
-[*] <etiqueta>
+[*] &lt;body&gt;
+[*] &lt;span&gt;
+[ ] &lt;/span&gt;
+[ ] &lt;img/&gt;
+[*] &lt;form&gt;
+[*] &lt;etiqueta&gt;
 
 >>Q2: Existen elementos HTML que no tienen cierre ni contenido, llamados etiquetas vacias <<
 (*) Verdadero
 ( ) Falso
 
 >>Q3: Seleccione las etiquetas de cierre automático <<
-[*] <br>
-[ ] <span>
-[*] <img>
-[*] <col>
-[ ] <div>
-[*] <input>
+[*] &lt;br&gt;
+[ ] &lt;span&gt;
+[*] &lt;img&gt;
+[*] &lt;col&gt;
+[ ] &lt;div&gt;
+[*] &lt;input&gt;
+</pre>
