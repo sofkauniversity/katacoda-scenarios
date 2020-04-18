@@ -10,7 +10,7 @@ Etiqueta de apertura -->&lt;p&gt; Contenido &lt;/p&gt;<-- Etiqueta de cierre
 </pre>
 
 <pre>
->>Q1: Seleccione las etiquetas de apertura correctas <<
+Q1: Seleccione las etiquetas de apertura correctas
 [*] &lt;body&gt;
 [*] &lt;span&gt;
 [ ] &lt;/span&gt;
@@ -18,11 +18,11 @@ Etiqueta de apertura -->&lt;p&gt; Contenido &lt;/p&gt;<-- Etiqueta de cierre
 [*] &lt;form&gt;
 [*] &lt;etiqueta&gt;
 
->>Q2: Existen elementos HTML que no tienen cierre ni contenido, llamados etiquetas vacias <<
+Q2: Existen elementos HTML que no tienen cierre ni contenido, llamados etiquetas vacias
 (*) Verdadero
 ( ) Falso
 
->>Q3: Seleccione las etiquetas de cierre automático <<
+Q3: Seleccione las etiquetas de cierre automático
 [*] &lt;br&gt;
 [ ] &lt;span&gt;
 [*] &lt;img&gt;
