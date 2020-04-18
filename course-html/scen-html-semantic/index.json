@@ -1,4 +1,5 @@
 {
+  "noindex": true,
   "title": "Semantica Html",
   "description": "Ejercicio básico de semantica HTML",
   "difficulty": "Beginner",
@@ -34,14 +35,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "app.js", "target": "/home/scrapbook/tutorial/", "chmod": "+x"},
+        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+        {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
     }
-  },
-  "assets": {
-    "host01": [
-      {"file": "app.js", "target": "/home/scrapbook/tutorial/", "chmod": "+x"},
-      {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-      {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
-    ]
   },
   "files": [
     "index.html"
