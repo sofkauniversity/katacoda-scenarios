@@ -38,6 +38,7 @@
     },
     "assets": {
       "host01": [
+        {"file": "app.js", "target": "/usr/local/", "chmod": "+x"},
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]

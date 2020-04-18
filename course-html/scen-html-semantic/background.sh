@@ -9,6 +9,6 @@ while true; do sudo grep -i "done" /opt/katacoda-finished > /dev/null && break |
 
 echo "Todo está listo, ambiente desplegado, puede comenzar el ejercicio"
 
-/opt/deploy.sh
+/usr/local/bin/deploy.sh
 
 echo "done" | sudo tee /root/katacoda-background-finished
