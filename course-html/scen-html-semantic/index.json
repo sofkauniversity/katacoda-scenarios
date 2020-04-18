@@ -35,6 +35,7 @@
       "text": "finish.md"
     }
   },
+  "file": "app.js",
   "assets": {
     "host01": [
       {"file": "app.js", "target": "/home/scrapbook/tutorial/"}
