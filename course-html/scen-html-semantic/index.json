@@ -38,7 +38,7 @@
     },
     "assets": {
       "host01": [
-        {"file": "app.js", "target": "/home/scrapbook/tutorial/", "chmod": "+x"},
+        {"file": "app.js", "target": "/home/", "chmod": "+x"},
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
