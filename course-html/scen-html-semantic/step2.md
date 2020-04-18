@@ -9,6 +9,7 @@ Las partes principales de la etiquetas HTML son:
 Etiqueta de apertura -->&lt;p&gt; Contenido &lt;/p&gt;<-- Etiqueta de cierre
 </pre>
 
+<pre>
 >>Q1: Seleccione las etiquetas de apertura correctas <<
 [*] &lt;body&gt;
 [*] &lt;span&gt;
@@ -28,3 +29,4 @@ Etiqueta de apertura -->&lt;p&gt; Contenido &lt;/p&gt;<-- Etiqueta de cierre
 [*] &lt;col&gt;
 [ ] &lt;div&gt;
 [*] &lt;input&gt;
+</pre>
