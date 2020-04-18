@@ -16,13 +16,13 @@ Un atributo debería tener:
 - El nombre del atributo, seguido por un signo igual.
 Un valor del atributo, con comillas de apertura y cierre.
 
->>Q1: Seleccione las etiquetas anidadas correctamente <<
+>>Q4: Seleccione las etiquetas anidadas correctamente <<
 [*] &lt;head&gt; &lt;meta charset=&quot;utf-8&quot;&gt; &lt;title&gt;Mi p&aacute;gina de prueba&lt;/title&gt; &lt;/head&gt;
 [ ] &lt;p&gt;Dogs are silly.&lt;/p&gt; &lt;p&gt;Dogs are silly.&lt;/p&gt;
 [ ] &lt;body&gt; &lt;p&gt;Esta es mi p&aacute;gina&lt;/p&gt;
 [ ] &lt;a href=&quot;http://www.example.com&quot;&gt;Un enlace a mi ejemplo.&lt;/a&gt;
 
->>Q2: Seleccione las etiquetas que contienen atributos asignados correctamente <<
+>>Q5: Seleccione las etiquetas que contienen atributos asignados correctamente <<
 [*] &lt;a href=&quot;http://www.example.com&quot; title=&quot;&iquest;A que es divertido?&quot;&gt;Un enlace a mi ejemplo.&lt;/a&gt;
 [ ] &lt;meta charset=&quot;utf 8&gt;
 [*] &lt;input type=&quot;text&quot; disabled&gt;
