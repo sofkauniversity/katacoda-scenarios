@@ -17,11 +17,11 @@ Etiqueta de apertura -->&lt;p&gt; Contenido &lt;/p&gt;<-- Etiqueta de cierre
 [*] <form>
 [*] <etiqueta>
 
->>Q2: Existen etiquetas HTML que no tienen cierre ni contenido <<
+>>Q2: Existen elementos HTML que no tienen cierre ni contenido, llamados etiquetas vacias <<
 (*) Verdadero
 ( ) Falso
 
->>Q3: Seleccione la etiquetas de cierre automático <<
+>>Q3: Seleccione las etiquetas de cierre automático <<
 [*] <br>
 [ ] <span>
 [*] <img>
