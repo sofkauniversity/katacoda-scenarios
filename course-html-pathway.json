@@ -26,6 +26,11 @@
       "course_id": "scen-html-link",
       "title": "Enlaces HTML",
       "description": "Ejercicio básico de enlaces HTML"
+    },
+    {
+      "course_id": "scen-html-image",
+      "title": "Imagenes HTML",
+      "description": "Ejercicio básico de imagenes HTML"
     }
   ]
 }
