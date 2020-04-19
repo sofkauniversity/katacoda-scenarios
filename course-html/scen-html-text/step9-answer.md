@@ -2,7 +2,7 @@
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
-        &lt;title&gt;Grosor&lt;/title&gt;
+        &lt;title&gt;Práctica&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
         &lt;p&gt;&lt;strong&gt;Cuidado:&lt;/strong&gt; los carteristas operan en esta área.&lt;/p&gt;

@@ -2,7 +2,7 @@
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
-        &lt;title&gt;Listas anidadas&lt;/title&gt;
+        &lt;title&gt;Práctica&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
         &lt;ul&gt;

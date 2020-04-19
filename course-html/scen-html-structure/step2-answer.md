@@ -2,7 +2,7 @@
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-    &lt;title&gt;Este es el titulo de la página&lt;/title&gt;
+    &lt;title&gt;Práctica&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
     &lt;h1&gt;Este es el cuerpo de la página&lt;/h1&gt;

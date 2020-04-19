@@ -2,7 +2,7 @@
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
-        &lt;title&gt;Citas&lt;/title&gt;
+        &lt;title&gt;Práctica&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
         &lt;blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh" &gt;

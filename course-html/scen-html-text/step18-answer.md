@@ -2,7 +2,7 @@
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
-        &lt;title&gt;Texto&lt;/title&gt;
+        &lt;title&gt;Práctica&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
         &lt;h1&gt;La historia en el libro&lt;/h1&gt;

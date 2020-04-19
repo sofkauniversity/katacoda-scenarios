@@ -2,7 +2,7 @@
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
-        &lt;title&gt;Párrafos&lt;/title&gt;
+        &lt;title&gt;Práctica&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
         &lt;p&gt;Un párrafo consta de una o más oraciones que forman una unidad de discurso autónoma. El inicio de un párrafo se indica mediante una nueva línea.&lt;/p&gt;

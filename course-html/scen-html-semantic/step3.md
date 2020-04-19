@@ -18,7 +18,7 @@ Un valor del atributo, con comillas de apertura y cierre.
 
 <pre>
 Q4: Seleccione las etiquetas anidadas correctamente
-[*] &lt;head&gt; &lt;meta charset=&quot;utf-8&quot;&gt; &lt;title&gt;Mi p&aacute;gina de prueba&lt;/title&gt; &lt;/head&gt;
+[*] &lt;head&gt; &lt;meta charset=&quot;utf-8&quot;&gt; &lt;title&gt;Práctica&lt;/title&gt; &lt;/head&gt;
 [ ] &lt;p&gt;Dogs are silly.&lt;/p&gt; &lt;p&gt;Dogs are silly.&lt;/p&gt;
 [ ] &lt;body&gt; &lt;p&gt;Esta es mi p&aacute;gina&lt;/p&gt;
 [ ] &lt;a href=&quot;http://www.example.com&quot;&gt;Un enlace a mi ejemplo.&lt;/a&gt;

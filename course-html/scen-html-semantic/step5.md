@@ -3,7 +3,7 @@ Una de las características más importantes de HTML5 es su semántica. El HTML 
 <pre>
 &lt;html&gt;
     &lt;head&gt;
-        &lt;title&gt;Ejemplo de página&lt;/title&gt;
+        &lt;title&gt;Práctica&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
         &lt;div id="header"&gt;
