@@ -40,7 +40,6 @@
     "assets": {
       "host01": [
         {"file": "index.html", "target": "/opt/", "chmod": "+x"},
-        {"file": "step1.jpg", "target": "/opt/", "chmod": "+x"},
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
