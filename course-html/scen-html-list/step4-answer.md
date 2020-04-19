@@ -1,3 +1,4 @@
+<code>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
@@ -18,3 +19,4 @@
         &lt;/ul&gt;
     &lt;/body&gt;
 &lt;/html&gt;
+</code>

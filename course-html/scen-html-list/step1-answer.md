@@ -1,3 +1,4 @@
+<code>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
@@ -13,3 +14,4 @@
         &lt;/ol&gt;
     &lt;/body&gt;
 &lt;/html&gt;
+</code>
