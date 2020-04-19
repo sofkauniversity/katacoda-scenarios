@@ -1,0 +1,151 @@
+{
+  "noindex": true,
+  "title": "Texto HTML",
+  "description": "Ejercicio básico de la estructura HTML",
+  "difficulty": "Beginner",
+  "time": "25",
+  "details": {
+    "steps": [
+      {
+        "title": "Títulos",
+        "text": "step1.md",
+        "courseData": "background.sh",
+        "answer": "step1-answer.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Párrafos",
+        "text": "step2.md",
+        "answer": "step2-answer.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Negrita",
+        "text": "step3.md",
+        "answer": "step3-answer.md",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Cursiva",
+        "text": "step4.md",
+        "answer": "step4-answer.md",
+        "verify": "step4-verify.sh"
+      },
+      {
+        "title": "Superíndice y subíndice",
+        "text": "step5.md",
+        "answer": "step5-answer.md",
+        "verify": "step5-verify.sh"
+      },
+      {
+        "title": "Espacio en blanco",
+        "text": "step6.md",
+        "answer": "step6-answer.md",
+        "verify": "step6-verify.sh"
+      },
+      {
+        "title": "Salto de línea",
+        "text": "step7.md",
+        "answer": "step7-answer.md",
+        "verify": "step7-verify.sh"
+      },
+      {
+        "title": "Reglas horizontales",
+        "text": "step8.md",
+        "answer": "step8-answer.md",
+        "verify": "step8-verify.sh"
+      },
+      {
+        "title": "Grosor",
+        "text": "step9.md",
+        "answer": "step9-answer.md",
+        "verify": "step9-verify.sh"
+      },
+      {
+        "title": "Énfasis",
+        "text": "step10.md",
+        "answer": "step10-answer.md",
+        "verify": "step10-verify.sh"
+      },
+      {
+        "title": "Citas",
+        "text": "step11.md",
+        "answer": "step11-answer.md",
+        "verify": "step11-verify.sh"
+      },
+      {
+        "title": "Abreviaciones y Acronimos",
+        "text": "step12.md",
+        "answer": "step12-answer.md",
+        "verify": "step12-verify.sh"
+      },
+      {
+        "title": "Citas",
+        "text": "step13.md",
+        "answer": "step13-answer.md",
+        "verify": "step13-verify.sh"
+      },
+      {
+        "title": "Definiciones",
+        "text": "step14.md",
+        "answer": "step14-answer.md",
+        "verify": "step14-verify.sh"
+      },
+      {
+        "title": "Direcciones",
+        "text": "step15.md",
+        "answer": "step15-answer.md",
+        "verify": "step15-verify.sh"
+      },
+      {
+        "title": "Insertar y Eliminar",
+        "text": "step16.md",
+        "answer": "step16-answer.md",
+        "verify": "step16-verify.sh"
+      },
+      {
+        "title": "Tachado",
+        "text": "step17.md",
+        "answer": "step17-answer.md",
+        "verify": "step17-verify.sh"
+      },
+      {
+        "title": "Texto",
+        "text": "step18.md",
+        "answer": "step18-answer.md",
+        "verify": "step18-verify.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "step1.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step2.html", "target": "/opt/", "chmod": "+x"}
+      ]
+    }
+  },
+  "files": [
+    "index.html"
+  ],
+  "environment": {
+    "showide": true,
+    "showdashboards": true,
+    "delayToSaveFileAfterStopTypingMilliseconds": 2000,
+    "autoFormatEnable": false,
+    "idePort": 23000,
+    "uieditorpath": "/home/scrapbook/tutorial/",
+    "dashboards": [
+      {"name": "Port 80", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+    ],
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 80
+  }
+}

@@ -4,13 +4,18 @@
   "courses": [
     {
       "course_id": "scen-html-semantic",
-      "title": "Semantica Html",
+      "title": "Semantica HTML",
       "description": "Ejercicio básico de semantica HTML"
     },
     {
       "course_id": "scen-html-structure",
-      "title": "Estructura Html",
+      "title": "Estructura HTML",
       "description": "Ejercicio básico de la estructura HTML"
+    },
+    {
+      "course_id": "scen-html-text",
+      "title": "Texto HTML",
+      "description": "Ejercicio básico de el texto HTML"
     }
   ]
 }

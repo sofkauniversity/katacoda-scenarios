@@ -1,0 +1,16 @@
+<code&lt;
+&lt;!DOCTYPE html&gt;
+&lt;html&lt;
+    &lt;head&lt;
+        &lt;title&lt;Títulos&lt;/title&lt;
+    &lt;/head&lt;
+    &lt;body&lt;
+        &lt;h1&lt;Este es un título principal&lt;/h1&lt;
+        &lt;h2&lt;Este es un título de nivel 2&lt;/h2&lt;
+        &lt;h3&lt;Este es un título de nivel 3&lt;/h3&lt;
+        &lt;h4&lt;Este es un título de nivel 4&lt;/h4&lt;
+        &lt;h5&lt;Este es un título de nivel 5&lt;/h5&lt;
+        &lt;h6&lt;Este es un título de nivel 6&lt;/h6&lt;
+    &lt;/body&lt;
+&lt;/html&lt;
+</code&lt;
