@@ -38,7 +38,7 @@
     },
     "assets": {
       "host01": [
-        {"file": "step1.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step1.html", "target": "/opt/", "chmod": "+x"}
       ]
     }
   },
