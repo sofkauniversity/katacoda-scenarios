@@ -1,13 +1,18 @@
 <code>
-&lt;html&gt;
-	&lt;body&gt;
-		&lt;h1&gt;Este es el encabezado principal&lt;/h1&gt;
-		&lt;p&gt;Este texto puede ser una introducción al resto de la página. Y si la página es larga, puede dividirse en varios subtítulos.&lt;p&gt;
-		&lt;h2&gt;Este es un subtítulo&lt;/h2&gt;
-		&lt;p&gt;Muchos artículos largos tienen subtítulos para ayudarlo a seguir la estructura de lo que se está escribiendo. Incluso puede haber subtítulos secundarios (o títulos de nivel inferior).
-			 &lt;/p&gt;
-		&lt;h2&gt;Otro subtítulo&lt;/h2&gt;
-		&lt;p&gt;Aquí puedes ver otro subtítulo.&lt;/p&gt;
-	&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejemplo de estructura</title>
+    </head>
+    <body>
+        <h1>Este es el encabezado principal</h1>
+        <p>Este texto puede ser una introducción al resto de la página. Y si la página es larga, puede dividirse en varios
+            subtítulos.<p>
+        <h2>Este es un subtítulo</h2>
+        <p>Muchos artículos largos tienen subtítulos para ayudarlo a seguir la estructura de lo que se está escribiendo. Incluso
+            puede haber subtítulos secundarios (o títulos de nivel inferior).</p>
+        <h2>Otro subtítulo</h2>
+        <p>Aquí puedes ver otro subtítulo.</p>
+    </body>
+</html>
 </code>
