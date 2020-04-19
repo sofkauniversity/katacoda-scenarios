@@ -126,6 +126,22 @@
       "host01": [
         {"file": "step1.html", "target": "/opt/", "chmod": "+x"},
         {"file": "step2.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step3.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step4.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step5.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step6.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step7.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step8.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step9.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step10.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step11.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step12.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step13.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step14.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step15.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step16.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step17.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step18.html", "target": "/opt/", "chmod": "+x"}
       ]
     }
   },
