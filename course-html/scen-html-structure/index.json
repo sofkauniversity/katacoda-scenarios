@@ -1,7 +1,7 @@
 {
   "noindex": true,
   "title": "Semantica Html",
-  "description": "Ejercicio básico de semantica HTML",
+  "description": "Ejercicio básico de la estructura HTML",
   "difficulty": "Beginner",
   "time": "25",
   "details": {
@@ -11,6 +11,7 @@
         "text": "step1.md",
         "courseData": "background.sh",
         "code": "foreground.sh",
+        "answer": "step1-answer.md",
         "verify": "step1-verify.sh"
       },
       {
@@ -38,6 +39,7 @@
     },
     "assets": {
       "host01": [
+        {"file": "index.html", "target": "/opt/", "chmod": "+x"},
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]

@@ -6,6 +6,11 @@
       "course_id": "scen-html-semantic",
       "title": "Semantica Html",
       "description": "Ejercicio básico de semantica HTML"
+    },
+    {
+      "course_id": "scen-html-structure",
+      "title": "Estructura Html",
+      "description": "Ejercicio básico de la estructura HTML"
     }
   ]
 }

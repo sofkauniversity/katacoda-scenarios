@@ -1,1 +1,0 @@
-echo "Inicio paso 1"
