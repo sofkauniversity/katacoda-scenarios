@@ -15,19 +15,9 @@
       },
       {
         "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
+        "text": "step2.md",
+        "answer": "step2-answer.md",
+        "verify": "step2-verify.sh"
       }
     ],
     "intro": {
@@ -38,7 +28,8 @@
     },
     "assets": {
       "host01": [
-        {"file": "step1.html", "target": "/opt/", "chmod": "+x"}
+        {"file": "step1.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step2.html", "target": "/opt/", "chmod": "+x"}
       ]
     }
   },
