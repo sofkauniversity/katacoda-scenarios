@@ -1,2 +1,2 @@
-[ -f /home/scrapbook/tutorial/index.html ] && html-differ /opt/step14.html /home/scrapbook/tutorial/index.html | wc -l | grep 0 && echo "done"
+[ -f /home/scrapbook/tutorial/index.html ] && html-differ /opt/step14.html /home/scrapbook/tutorial/index.html | wc -l | grep "^0" && echo "done"
 > /home/scrapbook/tutorial/index.html
