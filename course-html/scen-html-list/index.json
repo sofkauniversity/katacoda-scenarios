@@ -1,0 +1,76 @@
+{
+  "noindex": true,
+  "title": "Texto HTML",
+  "description": "Ejercicio básico de la estructura HTML",
+  "difficulty": "Beginner",
+  "time": "25",
+  "details": {
+    "steps": [
+      {
+        "title": "Listas ordenadas",
+        "text": "step1.md",
+        "courseData": "background.sh",
+        "answer": "step1-answer.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Listas desordenadas",
+        "text": "step2.md",
+        "answer": "step2-answer.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Listas de definiciones",
+        "text": "step3.md",
+        "answer": "step3-answer.md",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Listas anidadas",
+        "text": "step4.md",
+        "answer": "step4-answer.md",
+        "verify": "step4-verify.sh"
+      },
+      {
+        "title": "Ejemplo",
+        "text": "step5.md",
+        "answer": "step5-answer.md",
+        "verify": "step5-verify.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "step1.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step2.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step3.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step4.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step5.html", "target": "/opt/", "chmod": "+x"}
+      ]
+    }
+  },
+  "files": [
+    "index.html"
+  ],
+  "environment": {
+    "showide": true,
+    "showdashboards": true,
+    "delayToSaveFileAfterStopTypingMilliseconds": 2000,
+    "autoFormatEnable": false,
+    "idePort": 23000,
+    "uieditorpath": "/home/scrapbook/tutorial/",
+    "dashboards": [
+      {"name": "Port 80", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+    ],
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 80
+  }
+}

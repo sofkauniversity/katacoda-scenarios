@@ -16,6 +16,11 @@
       "course_id": "scen-html-text",
       "title": "Texto HTML",
       "description": "Ejercicio básico de el texto HTML"
+    },
+    {
+      "course_id": "scen-html-list",
+      "title": "Listas HTML",
+      "description": "Ejercicio básico de listas HTML"
     }
   ]
 }
