@@ -6,7 +6,7 @@ Programar html es divertido
 
 Si queremos que la línea sea independiente de otras, podemos especificar que es un párrafo encerrándola con una etiqueta de elemento de párrafo p
 
-Abrir archivo `/home/scrapbook/tutorial/index.html`{{open}}
+Abrir archivo /home/scrapbook/tutorial/`index.html`{{open}}
 
 <pre class="file" data-filename="index.html" data-target="replace">
 &lt;p&gt;Programar html es divertido&lt;/p&gt;

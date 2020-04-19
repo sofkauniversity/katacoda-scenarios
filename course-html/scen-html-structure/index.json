@@ -1,6 +1,6 @@
 {
   "noindex": true,
-  "title": "Semantica Html",
+  "title": "Estructura Html",
   "description": "Ejercicio básico de la estructura HTML",
   "difficulty": "Beginner",
   "time": "25",
@@ -9,8 +9,6 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "courseData": "background.sh",
-        "code": "foreground.sh",
         "answer": "step1-answer.md",
         "verify": "step1-verify.sh"
       },

@@ -26,8 +26,8 @@ show_progress()
   echo ""
   echo "Ambiente iniciado"
   echo -n "Configurando ambiente"
+  printf "    \b\b\b\b"
   while true; do
-    printf "    \b\b\b\b"
     nohup curl -IL http://localhost:23000 | grep -i "HTTP/1.1 200 OK"  &> /dev/null
     if [[ "$?" -ne 0 ]]; then
       temp="${spinstr#?}"
