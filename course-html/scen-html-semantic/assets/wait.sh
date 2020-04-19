@@ -7,6 +7,7 @@ show_progress()
   local -r delay='0.75'
   local spinstr='\|/-'
   local temp
+  printf "    \b\b\b\b"
   /opt/start-vscode.sh && echo "done" >> /home/katacoda-finished
   rm -fr /opt/start-vscode.sh
   while true; do
@@ -26,6 +27,7 @@ show_progress()
   echo "Ambiente iniciado"
   echo -n "Configurando ambiente"
   while true; do
+    printf "    \b\b\b\b"
     nohup curl -IL http://localhost:23000 | grep -i "HTTP/1.1 200 OK"  &> /dev/null
     if [[ "$?" -ne 0 ]]; then
       temp="${spinstr#?}"
