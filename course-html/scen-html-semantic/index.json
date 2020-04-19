@@ -9,6 +9,7 @@
       {
         "title": "Step 1",
         "text": "step1.md",
+        "courseData": "background.sh",
         "verify": "step1-verify.sh"
       },
       {
