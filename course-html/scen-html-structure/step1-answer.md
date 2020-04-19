@@ -1,15 +1,13 @@
 <code>
 &lt;html&gt;
 	&lt;body&gt;
-		&lt;h1&gt;This is the Main Heading&lt;/h1&gt;
-		&lt;p&gt;This text might be an introduction to the rest of the page. And if the page is a 
-			 long one it might be split up into several sub-headings.&lt;p&gt;
-		&lt;h2&gt;This is a Sub-Heading&lt;/h2&gt;
-		&lt;p&gt;Many long articles have sub-headings so to help you follow the structure of what 
-			 is being written. There may even be sub-sub-headings (or lower-level headings).
+		&lt;h1&gt;Este es el encabezado principal&lt;/h1&gt;
+		&lt;p&gt;Este texto puede ser una introducción al resto de la página. Y si la página es larga, puede dividirse en varios subtítulos.&lt;p&gt;
+		&lt;h2&gt;Este es un subtítulo&lt;/h2&gt;
+		&lt;p&gt;Muchos artículos largos tienen subtítulos para ayudarlo a seguir la estructura de lo que se está escribiendo. Incluso puede haber subtítulos secundarios (o títulos de nivel inferior).
 			 &lt;/p&gt;
-		&lt;h2&gt;Another Sub-Heading&lt;/h2&gt;
-		&lt;p&gt;Here you can see another sub-heading.&lt;/p&gt;
+		&lt;h2&gt;Otro subtítulo&lt;/h2&gt;
+		&lt;p&gt;Aquí puedes ver otro subtítulo.&lt;/p&gt;
 	&lt;/body&gt;
 &lt;/html&gt;
 </code>

@@ -1,1 +1,1 @@
-[ -f /home/scrapbook/tutorial/index.html ] && grep -Fxq "Here you can see another sub-heading." /home/scrapbook/tutorial/index.html && echo "done"
+[ -f /home/scrapbook/tutorial/index.html ] && diff /opt/step1.html /home/scrapbook/tutorial/index.html >> /dev/null && [[ "$?" -eq 0 ]] && echo "done"
