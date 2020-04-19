@@ -1,3 +1,3 @@
-Cree el HTML que ve en la siguiente imagen
+Cree el HTML que representa la siguiente imagen en el archivo `index.html`{{open}} 
 
-![Katacoda Logo](/course-html/scen-html-structure/assets/step1.jpg)
+![Katacoda Logo](/opt/step1.jpg)
