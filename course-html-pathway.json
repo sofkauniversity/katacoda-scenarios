@@ -21,6 +21,11 @@
       "course_id": "scen-html-list",
       "title": "Listas HTML",
       "description": "Ejercicio básico de listas HTML"
+    },
+    {
+      "course_id": "scen-html-link",
+      "title": "Enlaces HTML",
+      "description": "Ejercicio básico de enlaces HTML"
     }
   ]
 }
