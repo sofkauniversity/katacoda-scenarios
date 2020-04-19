@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /home/scrapbook/tutorial/
-npm -g install http-server diff2html-cli
+npm -g install http-server html-differ
 http-server /home/scrapbook/tutorial/ -p 80

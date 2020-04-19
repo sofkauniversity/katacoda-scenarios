@@ -1,1 +1,1 @@
-[ -f /home/scrapbook/tutorial/index.html ] && diff /opt/step1.html /home/scrapbook/tutorial/index.html >> /dev/null && [[ "$?" -eq 0 ]] && echo "done"
+[ -f /home/scrapbook/tutorial/index.html ] && html-differ /opt/step1.html /home/scrapbook/tutorial/index.html | wc -l | grep 0 && echo "done"
