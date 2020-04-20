@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Práctica</title>
+    </head>
+    <body>
+        <form action="/">
+            <fieldset>
+                <legend>Tus detalles:</legend>
+                <label>Nombre: <input type="text" name="name" size="30" maxlength="100"></label><br />
+                <label>Correo electrónico: <input type="email" name="email" size="30" maxlength="100"></label><br />
+            </fieldset><br />
+            <fieldset>
+                <legend>Tu reseña:</legend>
+                <p>
+                    <label for="hear-about">¿Como supiste de nosotros?</label>
+                    <select name="referrer" id="hear-about">
+                        <option value="google">Google</option>
+                        <option value="friend">Amigos</option>
+                        <option value="advert">Publicidad</option>
+                        <option value="other">Otros</option>
+                    </select>
+                </p>
+                <p>
+                    ¿Visitarías de nuevo?<br />
+                    <label><input type="radio" name="rating" value="yes" /> Si</label>
+                    <label><input type="radio" name="rating" value="no" /> No</label>
+                    <label><input type="radio" name="rating" value="maybe" /> Tal vez</label>
+                </p>
+                <p>
+                    <label for="comments">Comentarios:</label><br />
+                    <textarea rows="4" cols="40" id="comments"></textarea>
+                </p>
+                <label><input type="checkbox" name="subscribe" checked="checked" /> Regístrese para recibir actualizaciones por correo electrónico</label><br />
+                <input type="submit" value="Enviar reseña" />
+            </fieldset>
+        </form>
+    </body>
+</html>

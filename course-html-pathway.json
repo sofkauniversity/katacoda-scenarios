@@ -36,6 +36,11 @@
       "course_id": "scen-html-table",
       "title": "Tablas HTML",
       "description": "Ejercicio básico de tablas HTML"
+    },
+    {
+      "course_id": "scen-html-form",
+      "title": "Formulario HTML",
+      "description": "Ejercicio básico de formulario HTML"
     }
   ]
 }

@@ -1,0 +1,188 @@
+{
+  "noindex": true,
+  "title": "Formulario HTML",
+  "description": "Ejercicio básico de formularios HTML",
+  "difficulty": "Beginner",
+  "time": "25",
+  "details": {
+    "steps": [
+      {
+        "title": "Estructura de formulario",
+        "text": "step1.md",
+        "courseData": "background.sh",
+        "answer": "step1-answer.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Entrada de texto",
+        "text": "step2.md",
+        "answer": "step2-answer.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Entrada de contraseña",
+        "text": "step3.md",
+        "answer": "step3-answer.md",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Textarea",
+        "text": "step4.md",
+        "answer": "step4-answer.md",
+        "verify": "step4-verify.sh"
+      },
+      {
+        "title": "Boton de radio",
+        "text": "step5.md",
+        "answer": "step5-answer.md",
+        "verify": "step5-verify.sh"
+      },
+      {
+        "title": "Checkbox",
+        "text": "step6.md",
+        "answer": "step6-answer.md",
+        "verify": "step6-verify.sh"
+      },
+      {
+        "title": "Cuadro de lista desplegable",
+        "text": "step7.md",
+        "answer": "step7-answer.md",
+        "verify": "step7-verify.sh"
+      },
+      {
+        "title": "Cuadro de selección múltiple",
+        "text": "step8.md",
+        "answer": "step8-answer.md",
+        "verify": "step8-verify.sh"
+      },
+      {
+        "title": "Cuadro de entrada de archivo",
+        "text": "step9.md",
+        "answer": "step9-answer.md",
+        "verify": "step9-verify.sh"
+      },
+      {
+        "title": "Botón de enviar",
+        "text": "step10.md",
+        "answer": "step10-answer.md",
+        "verify": "step10-verify.sh"
+      },
+      {
+        "title": "Botón de imagen",
+        "text": "step11.md",
+        "answer": "step11-answer.md",
+        "verify": "step11-verify.sh"
+      },
+      {
+        "title": "Botones y controles ocultos",
+        "text": "step12.md",
+        "answer": "step12-answer.md",
+        "verify": "step12-verify.sh"
+      },
+      {
+        "title": "Controles de formulario de etiquetado",
+        "text": "step13.md",
+        "answer": "step13-answer.md",
+        "verify": "step13-verify.sh"
+      },
+      {
+        "title": "Elementos de formulario de agrupación",
+        "text": "step14.md",
+        "answer": "step14-answer.md",
+        "verify": "step14-verify.sh"
+      },
+      {
+        "title": "Validación de formulario HTML5",
+        "text": "step15.md",
+        "answer": "step15-answer.md",
+        "verify": "step15-verify.sh"
+      },
+      {
+        "title": "Entrada de fecha HTML5",
+        "text": "step16.md",
+        "answer": "step16-answer.md",
+        "verify": "step16-verify.sh"
+      },
+      {
+        "title": "Entrada de correo electrónico HTML5",
+        "text": "step17.md",
+        "answer": "step17-answer.md",
+        "verify": "step17-verify.sh"
+      },
+      {
+        "title": "Entrada de URL HTML5",
+        "text": "step18.md",
+        "answer": "step18-answer.md",
+        "verify": "step18-verify.sh"
+      },
+      {
+        "title": "Entrada de búsqueda HTML5",
+        "text": "step19.md",
+        "answer": "step19-answer.md",
+        "verify": "step19-verify.sh"
+      },
+      {
+        "title": "Marcador de posición HTML5",
+        "text": "step20.md",
+        "answer": "step20-answer.md",
+        "verify": "step20-verify.sh"
+      },
+      {
+        "title": "Ejemplo",
+        "text": "step21.md",
+        "answer": "step21-answer.md",
+        "verify": "step21-verify.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "step1.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step2.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step3.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step4.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step5.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step6.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step7.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step8.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step9.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step10.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step11.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step12.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step13.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step14.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step15.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step16.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step17.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step18.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step19.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step20.html", "target": "/opt/", "chmod": "+x"},
+        {"file": "step21.html", "target": "/opt/", "chmod": "+x"}
+      ]
+    }
+  },
+  "files": [
+    "index.html"
+  ],
+  "environment": {
+    "showide": true,
+    "showdashboards": true,
+    "delayToSaveFileAfterStopTypingMilliseconds": 2000,
+    "autoFormatEnable": false,
+    "idePort": 23000,
+    "uieditorpath": "/home/scrapbook/tutorial/",
+    "dashboards": [
+      {"name": "Port 80", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+    ],
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 80
+  }
+}
