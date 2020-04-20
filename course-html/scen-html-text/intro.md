@@ -1,1 +1,1 @@
-Práctica sobre la estructura HTML
+Práctica sobre el texto HTML

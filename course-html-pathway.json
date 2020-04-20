@@ -31,6 +31,11 @@
       "course_id": "scen-html-image",
       "title": "Imagenes HTML",
       "description": "Ejercicio básico de imagenes HTML"
+    },
+    {
+      "course_id": "scen-html-table",
+      "title": "Tablas HTML",
+      "description": "Ejercicio básico de tablas HTML"
     }
   ]
 }

@@ -1,0 +1,30 @@
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Práctica&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;table&gt;
+            &lt;tr&gt;
+                &lt;th&gt;&lt;/th&gt;
+                &lt;th&gt;9am&lt;/th&gt;
+                &lt;th&gt;10am&lt;/th&gt;
+                &lt;th&gt;11am&lt;/th&gt;
+                &lt;th&gt;12am&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th&gt;lunes&lt;/th&gt;
+                &lt;td colspan="2"&gt;Geografía&lt;/td&gt;
+                &lt;td&gt;Matemáticas&lt;/td&gt;
+                &lt;td&gt;Arte&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th&gt;martes&lt;/th&gt;
+                &lt;td colspan="3"&gt;Gimnasio&lt;/td&gt;
+                &lt;td&gt;Economía doméstica&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code>
