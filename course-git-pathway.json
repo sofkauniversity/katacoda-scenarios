@@ -1,0 +1,11 @@
+{
+  "title": "Git",
+  "description": "Curso práctico de Git",
+  "courses": [
+    {
+      "course_id": "scen-git-init",
+      "title": "Inicio con Git",
+      "description": "Ejercicio básico de inicio en versionado con Git"
+    }
+  ]
+}
