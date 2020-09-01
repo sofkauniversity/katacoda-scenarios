@@ -1,13 +1,11 @@
-El HTML (HyperText Markup Language o lenguaje de marcas de hipertexto) no es un lenguaje de programación, es un lenguaje de marcado, usado para decirle a tu navegador cómo estructurar la páginas.
+Clonar repositorio
 
 <pre>
-Programar html es divertido
+git clone
 </pre>
 
-Si queremos que la línea sea independiente de otras, podemos especificar que es un párrafo encerrándola con una etiqueta de elemento de párrafo p
+Imagina que quieres actualizar la página web de tú hoja de vida. Para iniciar la práctica lo primero que debes lograr es clonar el repositorio ubicado en https://github.com/oscm91/cv-katacoda-practice.git
 
-Abrir archivo /home/scrapbook/tutorial/`index.html`{{open}}
+`git clone https://github.com/oscm91/cv-katacoda-practice.git .`{{execute}}
 
-<pre class="file" data-filename="index.html" data-target="replace">
-&lt;p&gt;Programar html es divertido&lt;/p&gt;
-</pre>
+Luego abrir el archivo /home/scrapbook/tutorial/`post-1.md`{{open}}
