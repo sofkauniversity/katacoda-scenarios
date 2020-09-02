@@ -11,6 +11,6 @@ RUN set -x  && apk add --no-cache   openjdk8="$JAVA_ALPINE_VERSION"  && [ "$JAVA
 RUN set -ex \
     && apk add --no-cache --virtual build-dependencies wget unzip git openssh python3 libpng-dev libtool automake autoconf g++ make build-base gcc zlib-dev nasm
 
-RUN yarn global add gatsby@^2.24.50 gatsby-image@^2.4.16 gatsby-plugin-manifest@^2.4.24 gatsby-plugin-offline@^3.2.24 gatsby-plugin-react-helmet@^3.3.10 gatsby-plugin-sharp@^2.6.28 gatsby-source-filesystem@^2.3.26 gatsby-transformer-remark@^2.8.30 gatsby-transformer-sharp@^2.5.13 prop-types@^15.7.2 react@^16.12.0 react-dom@^16.12.0 react-helmet@^6.1.0 prettier@2.1.0
+RUN git clone https://github.com/oscm91/cv-katacoda.git /tmp/cv-katacoda && cd /tmp/cv-katacoda && yarn install --modules-folder /home/node_modules && rm -fr /tmp/cv-katacoda
 
 CMD ["/bin/sh"]
