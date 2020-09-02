@@ -6,6 +6,11 @@
       "course_id": "scen-git-init",
       "title": "Inicio con Git",
       "description": "Ejercicio básico de inicio en versionado con Git"
+    },
+    {
+      "course_id": "scen-git-clone",
+      "title": "Clonar con Git",
+      "description": "Ejercicio básico de clonación de repositorio en Git"
     }
   ]
 }
