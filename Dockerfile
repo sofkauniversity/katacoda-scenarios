@@ -8,22 +8,9 @@ ENV LANG=C.UTF-8
 RUN {   echo '#!/bin/sh';   echo 'set -e';   echo;   echo 'dirname "$(dirname "$(readlink -f "$(which javac || which java)")")"';  } > /usr/local/bin/docker-java-home  && chmod +x /usr/local/bin/docker-java-home
 RUN set -x  && apk add --no-cache   openjdk8="$JAVA_ALPINE_VERSION"  && [ "$JAVA_HOME" = "$(docker-java-home)" ]
 
-
-ARG SONAR_SCANNER_HOME=/root/.sonar/native-sonar-scanner
-
-ENV SONAR_SCANNER_HOME=${SONAR_SCANNER_HOME} \
-    SONAR_USER_HOME=${SONAR_SCANNER_HOME}/.sonar \
-    SONAR_SCANNER_VERSION=4.4.0.2170
-
-RUN mkdir -p ${SONAR_SCANNER_HOME}
-
 RUN set -ex \
-    && apk add --no-cache --virtual build-dependencies wget unzip git openssh \
-    && wget -U "scannercli" -q -O /opt/sonar-scanner-cli.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-${SONAR_SCANNER_VERSION}-linux.zip \
-    && cd /opt \
-    && unzip sonar-scanner-cli.zip \
-    && rm sonar-scanner-cli.zip \
-    && mv sonar-scanner-${SONAR_SCANNER_VERSION}-linux ${SONAR_SCANNER_HOME}
-RUN sed -i 's/use_embedded_jre=true/use_embedded_jre=false/g' /root/.sonar/native-sonar-scanner/sonar-scanner-${SONAR_SCANNER_VERSION}-linux/bin/sonar-scanner
+    && apk add --no-cache --virtual build-dependencies wget unzip git openssh python3 libpng-dev libtool automake autoconf g++ make build-base gcc zlib-dev nasm
+
+RUN yarn global add gatsby@^2.24.50 gatsby-image@^2.4.16 gatsby-plugin-manifest@^2.4.24 gatsby-plugin-offline@^3.2.24 gatsby-plugin-react-helmet@^3.3.10 gatsby-plugin-sharp@^2.6.28 gatsby-source-filesystem@^2.3.26 gatsby-transformer-remark@^2.8.30 gatsby-transformer-sharp@^2.5.13 prop-types@^15.7.2 react@^16.12.0 react-dom@^16.12.0 react-helmet@^6.1.0 prettier@2.1.0
 
 CMD ["/bin/sh"]

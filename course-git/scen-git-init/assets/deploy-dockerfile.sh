@@ -6,5 +6,5 @@ ls /home
 ls /tmp/cv-katacoda
 cp -R /tmp/cv-katacoda/. /home
 ls /home
-yarn install
+yarn install -–offline
 yarn start
