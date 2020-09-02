@@ -6,5 +6,5 @@ ls /home
 ls /tmp/cv-katacoda
 cp -R /tmp/cv-katacoda/. /home
 ls /home
-yarn install -–offline
+yarn install -–offline --frozen-lockfile
 yarn start
