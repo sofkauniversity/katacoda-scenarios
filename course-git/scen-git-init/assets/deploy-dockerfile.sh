@@ -6,5 +6,5 @@ ls /home
 ls /tmp/cv-katacoda
 cp -R /tmp/cv-katacoda/. /home
 ls /home
-yarn install --no-bin-links --no-lockfile --no-lockfile -–offline --cache-folder /usr/local/share/.cache/yarn/v6
+yarn install --no-bin-links --no-lockfile -–offline --cache-folder /usr/local/share/.cache/yarn/v6
 yarn start
