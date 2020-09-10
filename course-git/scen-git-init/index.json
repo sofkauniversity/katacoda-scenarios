@@ -9,7 +9,8 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "courseData": "launch.sh"
+        "courseData": "launch.sh",
+        "code": "foreground.sh"
       }
      
     ],
