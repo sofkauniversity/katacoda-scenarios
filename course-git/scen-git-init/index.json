@@ -9,7 +9,7 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "code": "launch.sh"
+        "courseData": "launch.sh"
       }
      
     ],

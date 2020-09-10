@@ -1,2 +1,3 @@
-docker stop run-katacoda || true && docker rm run-katacoda || true
-docker run -v /opt/deploy-dockerfile.sh:/home/deploy.sh -v /home/scrapbook/tutorial:/home/markdown-pages --name run-katacoda -d -p 0.0.0.0:80:8000 oscarmorasofka/deploy-katacoda:1.0 sh /home/deploy.sh
+git clone https://github.com/sofkauniversity/hojadevida.git /home/scrapbook/tutorial
+cd /home/scrapbook/tutorial
+python3 -m http.server 80
