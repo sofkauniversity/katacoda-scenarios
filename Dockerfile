@@ -11,6 +11,6 @@ RUN set -x  && apk add --no-cache   openjdk8="$JAVA_ALPINE_VERSION"  && [ "$JAVA
 RUN set -ex \
     && apk add --no-cache --virtual build-dependencies wget unzip git openssh python3 libpng-dev libtool automake autoconf g++ make build-base gcc zlib-dev nasm
 
-RUN git clone https://github.com/oscm91/cv-katacoda.git /tmp/cv-katacoda && cd /tmp/cv-katacoda && yarn install --modules-folder /home/node_modules && rm -fr /tmp/cv-katacoda
+RUN git clone https://github.com/sofkauniversity/hojadevida.git /tmp/hojadevida && cd /tmp/hojadevida && yarn install --modules-folder /home/node_modules && rm -fr /tmp/hojadevida
 
 CMD ["/bin/sh"]
