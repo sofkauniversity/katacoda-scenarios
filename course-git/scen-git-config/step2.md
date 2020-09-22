@@ -1,4 +1,5 @@
 **Configuración de Git**
+
 Ahora que tienes Git en tu sistema (configurado en nuestro ambiente de KataCoda), vas a querer hacer algunas cosas para personalizar tu entorno de Git. Es necesario hacer estas cosas solamente una vez en tu computadora, para el ambiente de KataCoda cuando lo desees hacer, recuerda que las sesiones de aprendizaje en Katacoda se destruyen cuando terminas tu práctica. También puedes cambiarlas en cualquier momento volviendo a ejecutar los comandos correspondientes.
 
 Para realizar esta actividad git cuenta con el siguiente comando
