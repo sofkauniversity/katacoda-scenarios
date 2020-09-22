@@ -4,6 +4,8 @@ Antes de empezar a utilizar Git, tienes que instalarlo en tu computadora. Inclus
 
 Para el caso de nuestra práctica este ambiente de KataCoda ya viene instalado con Git, así que lo que procederemos a realizar es verificar que contamos con git ejecutando el siguiente comando desde la terminal.
 
+Ejecuta el siguiente comando en la terminal:
+
 <pre>
 git version
 </pre>
