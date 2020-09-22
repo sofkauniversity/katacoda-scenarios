@@ -3,6 +3,11 @@
   "description": "En este curso encontrarás las herramientas para preparar tus técnicas y logres culminar tu misión",
   "courses": [
     {
+      "course_id": "scen-git-config",
+      "title": "Configuración Inicial de Git",
+      "description": "Ejercicio básico para configurar un repositorio con Git"
+    },
+    {
       "course_id": "scen-git-init",
       "title": "Inicio con Git",
       "description": "Ejercicio básico para iniciar un repositorio con Git"

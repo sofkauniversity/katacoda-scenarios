@@ -1,0 +1,49 @@
+{
+    "noindex": true,
+    "title": "Práctiquemos la Configuración Inicial de un Repositorio con GIT",
+    "description": "Ejercicio Configuración de GIT",
+    "difficulty": "Principiante",
+    "time": "25 minutos",
+    "details": {
+      "steps": [
+        {
+          "title": "Paso 1",
+          "text": "step1.md",
+          "courseData": "launch.sh",
+          "code": "foreground.sh"
+        }
+       
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      },
+      "assets": {
+        "host01": [
+          {"file": "deploy-dockerfile.sh", "target": "/opt/", "chmod": "+x"},
+          {"file": "run-dockerfile.sh", "target": "/opt/", "chmod": "+x"}
+        ]
+      }
+    },
+    "files": [
+      "index.html"
+    ],
+    "environment": {
+      "showide": true,
+      "showdashboards": true,
+      "delayToSaveFileAfterStopTypingMilliseconds": 2000,
+      "autoFormatEnable": false,
+      "idePort": 23000,
+      "uieditorpath": "/home/scrapbook/tutorial/",
+      "dashboards": [
+        {"name": "Port 80", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+      ],
+      "uilayout": "terminal-iframe"
+    },
+    "backend": {
+      "imageid": "ubuntu:2004",
+      "port": 80
+    }
+  }
