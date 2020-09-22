@@ -11,6 +11,18 @@
           "text": "step1.md",
           "courseData": "launch.sh",
           "code": "foreground.sh"
+        },
+        {
+          "title": "Paso 2",
+          "text": "step2.md"
+        },
+        {
+          "title": "Paso 3",
+          "text": "step3.md"
+        },
+        {
+          "title": "Paso 4",
+          "text": "step4.md"
         }
        
       ],
