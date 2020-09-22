@@ -20,13 +20,6 @@
       "finish": {
         "text": "finish.md"
       },
-      "assets": {
-        "host01": [
-          {"file": "deploy-dockerfile.sh", "target": "/opt/", "chmod": "+x"},
-          {"file": "run-dockerfile.sh", "target": "/opt/", "chmod": "+x"}
-        ]
-      }
-    },
     "files": [
       "index.html"
     ],
