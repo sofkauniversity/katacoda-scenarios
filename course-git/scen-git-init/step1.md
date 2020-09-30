@@ -6,9 +6,9 @@ Para almacenar o gestionar un directorio sobre un control de versiones, necesita
 
 Como se trata de un nuevo proyecto, es necesario crear un nuevo repositorio. Usa el comando `git init`{{execute}} para crear un reposito
 
-<pre>
-git init
-</pre>
+
+> git init
+
 
 **Tip**
 
@@ -33,8 +33,8 @@ cd ..
 
 Para devolvernos al directorio anterior de donde estamos parados y
 
-<pre>
-> ls
-</pre>
+```
+ls
+``` 
 
 Para listar los subdirectorios o archivos en ese directorio en el que estamos parados

@@ -10,7 +10,8 @@
         "title": "Paso 1 - GIT Init",
         "text": "step1.md",
         "courseData": "launch.sh",
-        "code": "foreground.sh"
+        "code": "foreground.sh",
+        "answer": "step1-answer.md"
       }
      
     ],
