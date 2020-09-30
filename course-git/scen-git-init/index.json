@@ -3,11 +3,11 @@
   "title": "Práctiquemos el Inicio de un Repositorio con GIT",
   "description": "Ejercicio Inicio GIT",
   "difficulty": "Principiante",
-  "time": "25 minutos",
+  "time": "10 minutos",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Paso 1 - GIT Init",
         "text": "step1.md",
         "courseData": "launch.sh",
         "code": "foreground.sh"
