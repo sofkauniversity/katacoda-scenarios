@@ -10,11 +10,13 @@ Imagina que estas trabajando en un proyecto para actualizar la página web de t�
 
 > Al ejecutar el comando se iniciará el proceso de descarga de los archivos que contenga el repositorio, esto creará un directorio llamado PracticaHojaVida, inicializará un directorio .git en su interior, descargará toda la información de ese repositorio y sacará una copia de trabajo de la última versión.
 
-Si requerimos que la descarga se almacene en una ruta específica de nuestros directorios el comando a ejecutar es git clone [url] [directorio]
+Si requerimos que la descarga se almacene en una ruta específica de nuestros directorio el comando a ejecutar es git clone [url] [directorio destino] este comando realiza lo mismo que git clone [url] pero los archivos descargados no quedarán en una carpeta con nombre PracticaHojaVida sino que se almacenan en el directorio destino seleccionado.
 
 Por ello para realizar la clonación de este proyecto deberás ejecutar el comando en la terminal `git clone https://github.com/sofkauniversity/PracticaHojaVida.git /home/scrapbook/tutorial`{{execute}} en este caso le indicamos en que directorio queremos descargar el repositorio.
 
 ## Tip
 
 Git te permite usar distintos protocolos de transferencia. El ejemplo anterior usa el protocolo https://, pero también puedes utilizar git:// o usuario@servidor:ruta/del/repositorio.git que utiliza el protocolo de transferencia SSH, más adelante se explicarán estas opciones durante el curso.
+
+Si quieres mayor detalle sobre el comando git clone puedes ingresar a la [documentación oficial.](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git)
 

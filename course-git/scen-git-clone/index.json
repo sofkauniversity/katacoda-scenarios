@@ -13,7 +13,8 @@
       },
       {
         "title": "Paso 2 - Ver Repositorio en IDE",
-        "text": "step2.md"
+        "text": "step2.md",
+        "background": "background.sh"
       }
     ],
     "intro": {

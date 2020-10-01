@@ -6,4 +6,4 @@ Recuerda que todo lo que creamos en nuestro entorno de práctica se almacena en 
 
 Ingresa al IDE de desarrollo VS Code y visualiza la estructura de archivos que se ha creado al descargar el repositorio de git desde GITHUB abre el archivo /home/scrapbook/tutorial/`index.html`{{open}} y allí encuentras tu código del proyecto de hoja de vida que vienes desarrollando.
 
-Ahora ingresa a la pestaña de **PORT 80** y mira desplegado el proyecto que tu haz estado cosntruyendo y que a partir de ahora estaremos modificando durante las prácticas.
+Ahora ingresa a la pestaña de **PORT 80** y mira desplegado el proyecto que tu haz estado construyendo y que a partir de ahora estaremos modificando durante las prácticas.
