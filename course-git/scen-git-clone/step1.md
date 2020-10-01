@@ -16,4 +16,3 @@ Por ello para realizar la clonación de este proyecto deberás ejecutar el coman
 
 Git te permite usar distintos protocolos de transferencia. El ejemplo anterior usa el protocolo https://, pero también puedes utilizar git:// o usuario@servidor:ruta/del/repositorio.git que utiliza el protocolo de transferencia SSH, más adelante se explicarán estas opciones durante el curso.
 
-Luego abrir el archivo /home/scrapbook/tutorial/`post-1.md`{{open}}
