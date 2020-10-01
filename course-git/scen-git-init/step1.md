@@ -1,6 +1,6 @@
 **Inicializar un Nuevo Repositorio en GIT**
 
-Para almacenar o gestionar un directorio sobre un control de versiones, necesitarás crear un nuevo repositorio con Git. Para inicializar este repositorio, deberás ubicarte en el directorio de nivel superior donde estará alojado el proyecto, es decir en la ruta del directorio a apartir de la cual deseas que todo sea controlado y versionado.
+Para almacenar o gestionar un directorio existente sobre un control de versiones, necesitarás crear un nuevo repositorio con Git. Para inicializar este repositorio, deberás ubicarte en el directorio de nivel superior donde estará alojado el proyecto, es decir en la ruta del directorio a apartir de la cual deseas que todo sea controlado y versionado.
 
 **Tarea Objetivo**
 
@@ -20,7 +20,7 @@ Después de inicializar un nuevo repositorio git, se crea un nuevo subdirectorio
 
 Si ejecutamos el comando `ls -a`{{execute}} podemos ver los directorios ocultos donde evidenciaremos que se creó el subdirectorio .git
 
-Si queremos explorar el contenido de este sudbirectorio bastará con utilizar el comando `cd .git`{{execute}} para posicionarnos en el subditectorio, posteriormente ejecutar el comando `ls`{{execute}} y ver el contenido existente.
+Si queremos explorar el contenido de este sudbirectorio bastará con utilizar el comando **cd .git** para posicionarnos en el subditectorio, posteriormente ejecutar el comando `ls`{{execute}} y ver el contenido existente.
 
 Recuerden que para movernos entre directorios, subdirectorios y listarlos utilizamos los comandos: 
 
