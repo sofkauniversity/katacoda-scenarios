@@ -14,6 +14,10 @@ Deberás ingresar al IDE de desarrollo VS Code y crear un archivo llamado index.
 
 /home/scrapbook/tutorial/`index.html`{{open}}
 
+Mira como crear un archivo en Visual Studio Code en nuestro ambiente de KataCoda en el siguiente video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PStB7P8fI1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 En este archivo creado ingrese el siguiente código html
 
 ```html

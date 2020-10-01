@@ -16,8 +16,6 @@
       {
         "title": "Paso 2 - Control Versiones",
         "text": "step2.md",
-        "courseData": "launch.sh",
-        "code": "foreground.sh",
         "answer": "step2-answer.md"
       }
      
