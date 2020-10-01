@@ -1,21 +1,16 @@
 {
   "noindex": true,
   "title": "Práctiquemos el Inicio de un Repositorio con GIT",
-  "description": "Inicializando un repositorio en un directorio existente",
+  "description": "Ejercicio Inicio GIT",
   "difficulty": "Principiante",
-  "time": "10 minutos",
+  "time": "25 minutos",
   "details": {
     "steps": [
       {
-        "title": "Paso 1 - GIT Init",
+        "title": "Step 1",
         "text": "step1.md",
         "courseData": "launch.sh",
-        "answer": "step1-answer.md"
-      },
-      {
-        "title": "Paso 2 - Control Versiones",
-        "text": "step2.md",
-        "answer": "step2-answer.md"
+        "code": "foreground.sh"
       }
      
     ],
