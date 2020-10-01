@@ -9,8 +9,8 @@
       {
         "title": "Paso 1 - GIT Init",
         "text": "step1.md",
-        "courseData": "background.sh",
-        "foreground": "foreground.sh",
+        "courseData": "launch.sh",
+        "code": "foreground.sh",
         "answer": "step1-answer.md"
       },
       {
