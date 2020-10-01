@@ -8,7 +8,7 @@ seguido de un
 
 > git commit - para confirmar los cambios
 
-**Tarea Objetivo**
+## Tarea Objetivo
 
 Deberás ingresar al IDE de desarrollo VS Code y crear un archivo llamado index.html la ruta, carpeta o directorio por defecto en el que se posiciona el editor es /home/scrapbook/tutorial/
 
