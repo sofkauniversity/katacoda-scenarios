@@ -9,13 +9,14 @@
       {
         "title": "Paso 1 - Clonar Repositorio",
         "text": "step1.md",
-        "foreground": "foreground.sh"
+        "courseData": "launch.sh",
+        "code": "foreground.sh"
       },
       {
         "title": "Paso 2 - Ver Repositorio en IDE",
-        "text": "step2.md",
-        "background": "background.sh"
+        "text": "step2.md"
       }
+     
     ],
     "intro": {
       "text": "intro.md"
@@ -36,7 +37,7 @@
   "environment": {
     "showide": true,
     "showdashboards": true,
-    "delayToSaveFileAfterStopTypingMilliseconds": 500,
+    "delayToSaveFileAfterStopTypingMilliseconds": 2000,
     "autoFormatEnable": false,
     "idePort": 23000,
     "uieditorpath": "/home/scrapbook/tutorial/",
@@ -47,6 +48,6 @@
   },
   "backend": {
     "imageid": "ubuntu:2004",
-    "port": 83
+    "port": 80
   }
 }
