@@ -9,13 +9,13 @@
       {
         "title": "Paso 1 - GIT Init",
         "text": "step1.md",
+        "courseData": "background.sh",
         "foreground": "foreground.sh",
         "answer": "step1-answer.md"
       },
       {
         "title": "Paso 2 - Control Versiones",
         "text": "step2.md",
-        "courseData": "background.sh",
         "answer": "step2-answer.md"
       }
      
