@@ -15,7 +15,7 @@
       {
         "title": "Paso 2 - Control Versiones",
         "text": "step2.md",
-        "background": "background.sh",
+        "courseData": "background.sh",
         "answer": "step2-answer.md"
       }
      
