@@ -9,7 +9,6 @@
       {
         "title": "Paso 1 - Clonar Repositorio",
         "text": "step1.md",
-        "background": "background.sh",
         "foreground": "foreground.sh"
       },
       {
