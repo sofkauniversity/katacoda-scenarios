@@ -21,6 +21,12 @@
       "course_id": "scen-git-add",
       "title": "Revisar el Estado y Agregar Archivos con Git",
       "description": "Ejercicio básico de revisión de estado y agregar archivos en Git"
+    },
+    {
+      "course_id": "scen-git-ignore",
+      "title": "Ignorar Archivos en Git",
+      "description": "Ejercicio práctico ignorar archivos en Git"
     }
+
   ]
 }
