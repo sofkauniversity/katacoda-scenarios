@@ -4,7 +4,7 @@ A veces, hay archivos o directorios particulares que nunca deseas confirmar, com
 
 El archivo *.gitignore* le permite definir comodines para los archivos que desea ignorar, por ejemplo *.tmp ignorará todos los archivos con la extensión .tmp.
 
-Cualquier archivo que coincida con un comodín definido no se mostrará en una salida de <pre>git status</pre> y se ignorará al intentar el comando <pre>git add</pre>
+Cualquier archivo que coincida con un comodín definido no se mostrará en una salida de <pre>$ git status</pre> y se ignorará al ejecutar el comando <pre>$ git add</pre>
 
 Recordemos los principales comodines a través de ejemplos y práctiquemos en nuestro ambiente de entrenamiento
 
@@ -24,10 +24,10 @@ Posteriormente ejecute el comando `git status`{{execute}} y valide el estado del
 
 * Agrega en el archivo *gitgnore* la linea *index.html* y posteriormente ejecute `git status`{{execute}} mira el resultado obtenido, deberás ver que este archivo deja de ser visualizado por git y no aparece en archivos pendientes para rastrear.
 
-* Agrega en el archivo *gitgnore* la linea **.html* y posteriormente ejecute `git status`{{execute}} mira el resultado obtenido, deberás ver que todos los archivos con extensión html dejan de ser visualizado por git y no aparece en archivos pendientes para rastrear.
+* Ahora elimina la linea anterior y agrega en el archivo *gitgnore* la linea **.html* y posteriormente ejecute `git status`{{execute}} mira el resultado obtenido, deberás ver que todos los archivos con extensión html dejan de ser visualizado por git y no aparece en archivos pendientes para rastrear.
 
-* Crea una carpeta nueva en el IDE VS Code que llames *imagenes* y dentro de esta crea un archivo llamado *imagen.png*, ejecuta ahora `git status`{{execute}} deberás ver que git te indica que tienes una carpeta pendiente de restrear llamada *imagenes/*, luego agregua en el archivo *gitgnore* la linea *imagenes/* y posteriormente ejecute `git status`{{execute}} mira el resultado obtenido, deberás ver que la carpeta entera deja de ser visualizado por git y no aparece los pendientes para rastrear.
+* Crea una carpeta nueva en el IDE VS Code que llames *imagenes* y dentro de esta crea un archivo llamado *imagen.png*, ejecuta ahora `git status`{{execute}} deberás ver que git te indica que tienes una carpeta pendiente de restrear llamada *imagenes/*, luego agrega en el archivo *.gitgnore* la linea *imagenes/* y posteriormente ejecute `git status`{{execute}} mira el resultado obtenido, deberás ver que la carpeta entera deja de ser visualizado por git y no aparece los pendientes para rastrear.
 
 ## Tip
 
-El archivo <pre>.gitignore</pre> debe confirmarse en el repositorio para garantizar que las reglas se apliquen en diferentes máquinas al ser clonado y compartido nuestro proyecto.
+El archivo *.gitignore* debe confirmarse en el repositorio para garantizar que las reglas se apliquen en diferentes máquinas al ser clonado y compartido nuestro proyecto.
