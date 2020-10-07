@@ -1,47 +1,33 @@
-**Consultar el Estado de Tu Repositorio en Git**
+**Ignorar Archivos en Git**
 
-Cuando un directorio (carpeta) es parte de un repositorio, se denomina directorio de trabajo (Working Directory). Un directorio de trabajo contiene la última versión descargada del repositorio junto con los cambios que aún no se han confirmado. Mientras trabajas en un proyecto, todos los cambios se realizan en este directorio de trabajo.
+A veces, hay archivos o directorios particulares que nunca deseas confirmar, como la configuración de desarrollo local o archivos que generan los IDE de desarrollo. Para ignorar estos archivos, se deberá crea un archivo *.gitignore* en la raíz del repositorio.
 
-Puedes ver qué archivos han cambiado entre su directorio de trabajo y lo que se ha enviado previamente al repositorio (local repositorio) usando el comando:
+El archivo *.gitignore* le permite definir comodines para los archivos que desea ignorar, por ejemplo *.tmp ignorará todos los archivos con la extensión .tmp.
 
-> git status
+Cualquier archivo que coincida con un comodín definido no se mostrará en una salida de <pre>git status</pre> y se ignorará al intentar el comando <pre>git add</pre>
 
-El resultado de este comando se denomina "estado del árbol de trabajo".
+Recordemos los principales comodines a través de ejemplos y práctiquemos en nuestro ambiente de entrenamiento
+
+![Imagen Ignorar](https://i.imgur.com/byrGEKU.png)
 
 ## Tarea Objetivo
 
-Inicia creando un nuevo repositorio para controlar el versionamiento de tu proyecto. 
-Recuerda que para esto debes usar el comando `git init`{{execute}}
+En este momento en su ambiente de entrenamiento se han cargado 3 archivos que puedes ver en tu IDE de desarrollo
 
-Si luego de inicializar el nuevo repositorio git ejecutas el comando `git status`{{execute}}, podrás ver el siguiente resultado:
+* /home/scrapbook/tutorial/`index.html`{{open}}
+* /home/scrapbook/tutorial/`home.html`{{open}}
+* /home/scrapbook/tutorial/`.gitignore`{{open}}
 
-```
-On branch master
-No commits yet
-nothing to commit (create/copy files and use "git add" to track)
+Estos archivos aún no se encuentran en un repositorio git para ser rastreados, así que inice un repositorio git desde la terminal con el comando `git init`{{execute}}
 
-```
-El comando nos muestra en que rama estamos posicionados (master) y nos da información adicional indicándonos que no tenemos commit o confirmaciones aún, tambien nos muestra que si queremos rastrear archivos debemos utilizar git add. **(No te preocupes si aún no entiendes estos conceptos los veremos más adelante pero es improtante que los vayas teniendo presente)**
+Posteriormente ejecute el comando `git status`{{execute}} y valide el estado del repositorio, deberás ver que tienes 3 archivos para iniciar a rastrear, ahora empieza a jugar con el archivo *.gitignore* en el repositorio, para ello realice las siguientes actividades:
 
-Ahora ingresa a tu editor de código fuente (IDE VS Code) y crea un archivo llamado index.html
+* Agrega en el archivo *gitgnore* la linea *index.html* y posteriormente ejecute `git status`{{execute}} mira el resultado obtenido, deberás ver que este archivo deja de ser visualizado por git y no aparece en archivos pendientes para rastrear.
 
-Luego ingresa a la siguiente url [Estructura Ejemplo HTML](https://css-tricks.com/snippets/html/html5-page-structure/) y copia la estrucutra de un HTML básico, en el archivo /home/scrapbook/tutorial/`index.html`{{open}} que acabas de crear.
+* Agrega en el archivo *gitgnore* la linea **.html* y posteriormente ejecute `git status`{{execute}} mira el resultado obtenido, deberás ver que todos los archivos con extensión html dejan de ser visualizado por git y no aparece en archivos pendientes para rastrear.
 
-Nuevamente ejecuta el comando `git status`{{execute}}, y observa la salida que tenemos ahora, donde nos indica que tenemos un archivo llamado index.html que fué el archivo que acabamos de crear y está sin rastrear (Untracked Files)
-
-```
-On branch master
-
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-        index.html
-
-nothing added to commit but untracked files present (use "git add" to track)
-```
+* Crea una carpeta nueva en el IDE VS Code que llames *imagenes* y dentro de esta crea un archivo llamado *imagen.png*, ejecuta ahora `git status`{{execute}} deberás ver que git te indica que tienes una carpeta pendiente de restrear llamada *imagenes/*, luego agregua en el archivo *gitgnore* la linea *imagenes/* y posteriormente ejecute `git status`{{execute}} mira el resultado obtenido, deberás ver que la carpeta entera deja de ser visualizado por git y no aparece los pendientes para rastrear.
 
 ## Tip
 
-Git "no rastrea" todos los archivos hasta que se indique lo contrario. Los detalles de cómo se tratan o rastrean los archivos lo veremos en el siguiente paso.
+El archivo <pre>.gitignore</pre> debe confirmarse en el repositorio para garantizar que las reglas se apliquen en diferentes máquinas al ser clonado y compartido nuestro proyecto.

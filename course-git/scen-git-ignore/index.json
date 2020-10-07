@@ -1,9 +1,9 @@
 {
   "noindex": true,
   "title": "Práctiquemos",
-  "description": "Ejercicio Revisión Estado y Rastrear Archivos",
+  "description": "Ignorar Archivos en Git",
   "difficulty": "Principiante",
-  "time": "15 minutos",
+  "time": "10 minutos",
   "details": {
     "steps": [
       {
@@ -13,7 +13,7 @@
         "code": "foreground.sh"
       },
       {
-        "title": "Paso 2 - Ignorar Archivos",
+        "title": "Paso 2 - Git Diff",
         "text": "step2.md"
       }
      
