@@ -18,7 +18,7 @@ Mira como crear un archivo en Visual Studio Code en nuestro ambiente de KataCoda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PStB7P8fI1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-En este archivo creado ingrese el siguiente código html
+En este archivo creado ingrese el siguiente código html o ingresa a la url [Estructura Ejemplo HTML](https://css-tricks.com/snippets/html/html5-page-structure/) y copia la estrucutra de un HTML básico.
 
 ```html
 <html>

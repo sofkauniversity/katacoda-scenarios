@@ -16,6 +16,11 @@
       "course_id": "scen-git-clone",
       "title": "Clonar con Git",
       "description": "Ejercicio básico de clonación de repositorio en Git"
+    },
+    {
+      "course_id": "scen-git-add",
+      "title": "Revisar el Estado y Agregar Archivos con Git",
+      "description": "Ejercicio básico de revisión de estado y agregar archivos en Git"
     }
   ]
 }
