@@ -26,6 +26,11 @@
       "course_id": "scen-git-ignore",
       "title": "Ignorar Archivos en Git",
       "description": "Ejercicio práctico ignorar archivos en Git"
+    },
+    {
+      "course_id": "scen-git-commit",
+      "title": "Confirmar Archivos en Git",
+      "description": "Ejercicio práctico para confirmar archivos en Git"
     }
 
   ]
