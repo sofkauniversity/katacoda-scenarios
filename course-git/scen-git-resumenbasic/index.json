@@ -30,10 +30,7 @@
     "assets": {
       "host01": [
         {"file": "deploy-dockerfile.sh", "target": "/opt/", "chmod": "+x"},
-        {"file": "run-dockerfile.sh", "target": "/opt/", "chmod": "+x"},
-        {"file": ".gitignore", "target": "/home/scrapbook/tutorial/"},
-        {"file": "index.html", "target": "/home/scrapbook/tutorial/"},
-        {"file": "home.html", "target": "/home/scrapbook/tutorial/"}
+        {"file": "run-dockerfile.sh", "target": "/opt/", "chmod": "+x"}
       ]
     }
   },
