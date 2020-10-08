@@ -2,6 +2,10 @@
 
 ## Tarea Objetivo
 
+**Consulta el Historial de Confirmaciones del Repositorio Remoto**
+
+Recuerda que cuando clonamos un repositorio clonamos toda la historia del mismo, así que si ejecutamos el comando `git log`{{execute}}, vamos a poder ver el historial de las versiones o confirmaciones realizadas sobre ese repositorio, observando, quién, cuándo y qué.
+
 **Modifica Tu Desarrollo**
 
 Ahora procede a modificar en tu proyecto clonado la funcionalidad de **Información Básica** ingresando tu datos personales, modifica lo siguiente en el archivo /home/scrapbook/tutorial/`index.html`{{open}}, cambia la información en el interior de las etiquetas HTML.
