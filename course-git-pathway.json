@@ -31,7 +31,11 @@
       "course_id": "scen-git-commit",
       "title": "Confirmar Archivos en Git",
       "description": "Ejercicio práctico para confirmar archivos en Git"
+    },
+    {
+      "course_id": "scen-git-log",
+      "title": "Historial de Confirmaciones en Git",
+      "description": "Ejercicio práctico para conocer el historial de confirmaciones en Git"
     }
-
   ]
 }
