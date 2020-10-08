@@ -19,7 +19,11 @@
       {
         "title": "Paso 3 - Modificar y Preparar",
         "text": "step3.md"
-      }       
+      },
+      {
+        "title": "Paso 4 - Confirmar Cambios",
+        "text": "step4.md"
+      }        
     ],
     "intro": {
       "text": "intro.md"
