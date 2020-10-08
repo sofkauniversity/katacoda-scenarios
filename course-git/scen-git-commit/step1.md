@@ -14,7 +14,7 @@ En este momento en su ambiente de entrenamiento se han cargado 3 archivos que pu
 
 Estos archivos aún no se encuentran en un repositorio git para ser rastreados, así que inice un repositorio git desde la terminal con el comando `git init`{{execute}}
 
-Posteriormente ejecute el comando `git status`{{execute}} y valide el estado del repositorio, deberás ver que tienes 3 archivos para iniciar a rastrear, ahora agrega estos archivos al área de preparación utilizando el comando `git add .`{{execute}}, nuevamente ejecuta `git status`{{execute}} y valida que tenemos listos los archivos para una confirmación, es decir para pasarlo a nuestro repositorio local (Local Repository), para ello ejecuta el comando `git commit -m "mensaje de confirmación"`, `git commit -m "Creación v1.0 del Proyecto Web`{{execute}}.
+Posteriormente ejecute el comando `git status`{{execute}} y valide el estado del repositorio, deberás ver que tienes 3 archivos para iniciar a rastrear, ahora agrega estos archivos al área de preparación utilizando el comando `git add .`{{execute}}, nuevamente ejecuta `git status`{{execute}} y valida que tenemos listos los archivos para una confirmación, es decir para pasarlo a nuestro repositorio local (Local Repository), para ello ejecuta el comando `git commit -m "mensaje de confirmación"`, `git commit -m "Creación v1.0 del Proyecto Web"`{{execute}}.
 
 Si ejecutas nuevamente el comando `git status`{{execute}} vas a evidenciar que ya nuestro repositorio está actualizado y no tenemos pendientes cambios, ya sea por llevar a nuestra área de preparación o por llevar al repositorio local.
 
