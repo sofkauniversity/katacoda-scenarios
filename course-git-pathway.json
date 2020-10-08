@@ -36,6 +36,11 @@
       "course_id": "scen-git-log",
       "title": "Historial de Confirmaciones en Git",
       "description": "Ejercicio práctico para conocer el historial de confirmaciones en Git"
+    },
+    {
+      "course_id": "scen-git-resumenbasic",
+      "title": "Resumen Comandos Básicos de Git",
+      "description": "Ejercicio práctico sobre los comandos básicos de Git"
     }
   ]
 }

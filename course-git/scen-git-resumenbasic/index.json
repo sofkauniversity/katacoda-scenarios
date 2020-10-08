@@ -1,0 +1,59 @@
+{
+  "noindex": true,
+  "title": "Práctiquemos",
+  "description": "Recapitulemos Los Comandos Básicos de Git",
+  "difficulty": "Principiante",
+  "time": "20 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Paso 1 - Recapitulemos",
+        "text": "step1.md",
+        "courseData": "launch.sh",
+        "code": "foreground.sh"
+      },
+      {
+        "title": "Paso 2 - Fork y Clone",
+        "text": "step2.md"
+      },
+      {
+        "title": "Paso 3 - Modificar y Preparar",
+        "text": "step3.md"
+      }       
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "deploy-dockerfile.sh", "target": "/opt/", "chmod": "+x"},
+        {"file": "run-dockerfile.sh", "target": "/opt/", "chmod": "+x"},
+        {"file": ".gitignore", "target": "/home/scrapbook/tutorial/"},
+        {"file": "index.html", "target": "/home/scrapbook/tutorial/"},
+        {"file": "home.html", "target": "/home/scrapbook/tutorial/"}
+      ]
+    }
+  },
+  "files": [
+    "index.html"
+  ],
+  "environment": {
+    "showide": true,
+    "showdashboards": true,
+    "delayToSaveFileAfterStopTypingMilliseconds": 2000,
+    "autoFormatEnable": false,
+    "idePort": 23000,
+    "uieditorpath": "/home/scrapbook/tutorial/",
+    "dashboards": [
+      {"name": "Port 80", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+    ],
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004",
+    "port": 80
+  }
+}

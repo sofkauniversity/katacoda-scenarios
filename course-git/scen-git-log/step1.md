@@ -1,6 +1,6 @@
 **Consultar el Hitorial de Confirmaciones en Git**
 
-El comando `git log`{{execute}}  le permite ver el historial del repositorio y el registro de confirmación.
+El comando `git log` le permite ver el historial del repositorio y el registro de confirmación.
 
 ## Tarea Objetivo
 
