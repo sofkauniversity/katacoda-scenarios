@@ -10,11 +10,11 @@
         "title": "Paso 1 - Git Remote",
         "text": "step1.md",
         "courseData": "launch.sh",
-        "code": "foreground.sh"
+        "code": "foreground.sh",
+        "verify": "step1-verify.sh"
       },
       {
         "title": "Paso 2 - Git Push",
-        "code": "foreground2.sh",
         "text": "step2.md"
       },
       {
