@@ -14,7 +14,7 @@
       },
       {
         "title": "Paso 2 - Git Push",
-        "courseData": "launch2.sh",
+        "code": "foreground2.sh",
         "text": "step2.md"
       },
       {
