@@ -1,4 +1,4 @@
-**Fork y Clone**
+**Git Push**
 
 Cuando estés listo para compartir tus confirmaciones, debes enviarlas a tu repositorio remoto a través del comando `git push`. **Un flujo de trabajo típico de Git sería realizar varias confirmaciones pequeñas a medida que completa una tarea y la envía a un servidor remoto en puntos relevantes**, como cuando la tarea está completa, para garantizar la sincronización del código dentro del equipo de trabajo.
 

@@ -2,7 +2,7 @@
 
 Los repositorios remotos le permiten compartir cambios desde o hacia su repositorio local. Las ubicaciones remotas son generalmente un servidor de compilación o un servidor centralizado como Github o GitLab. Los repositorios remotos se agregan usando el comando `git remote` con un nombre descriptivo y la ubicación remota, generalmente se agrega la URL HTTPS como por ejemplo (*https://github.com/OcelotUproar/ocelite.git*) o una conexión SSH como por ejemplo *git@github.com:/OcelotUproar/ocelite.git.*
 
-El nombre descriptivo te permite saber o hacer referencia a la ubicación del repositorio en tu local, ya que pueden existir varios repositorios remotos según su escenario.
+El nombre descriptivo te permite saber o hacer referencia a la ubicación del repositorio en tu local, ya que pueden existir varios repositorios remotos según tu escenario.
 
 ## Tarea Objetivo
 
