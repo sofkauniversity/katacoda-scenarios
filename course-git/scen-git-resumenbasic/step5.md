@@ -21,9 +21,10 @@ En tu desarrollo web quieres modificar el nombre del archivo README.md y posteri
 
 1. Ejecuta el comando `git mv README.md LEER.md`{{execute}} para modificar el nombre de este archivo indicado
 2. Revisa el estado de tu proyecto con el comando `git status`{{execute}} verifica que se muestre en el working directory el archivo indicando que ha sido renombrado.
-3. Agrega este nuevo archivo renombrado a tu área de preparación con el comando `git add LEER.md`{{execute}}
-4. Ejecuta el comando `git diff`{{execute}} y consulta no solo el estado del repositoriop a nivel de nombres sino las lineas que han sido insertadas y eliminadas, entre el directorio de trabajo y el área de preparación.
-5. Antes de realizar una nueva confirmación, quieres eliminar el archivo que acabas de renombrar y está en el área de preparación, para ello ejecuta el comando `git rm LEER.md`{{execute}}
+3. Agrega este nuevo archivo renombrado a tu área de preparación con el comando `git add LEER.md`{{execute}}, ahora ingresa a este archivo desde tu IDE y modifica el texto que allí encuentras, eliminando la primera línea que aparece y agregando una nueva con algun mensaje que quieras poner.
+4. Ejecuta el comando `git diff`{{execute}} y consulta no solo el estado del repositorio a nivel de nombres sino las lineas que han sido insertadas y eliminadas, entre el directorio de trabajo y el área de preparación.
+5. Agrega ahora este cambio realizado en el archivo LEER.md al área de preparación nuevamente con el comando `git add LEER.md`{{execute}}.
+5. Antes de realizar una nueva confirmación, quieres eliminar el archivo que acabas de renombrar y está en el área de preparación, para ello ejecuta el comando `git rm LEER.md`{{execute}}, vas a ver que no te va a permitir por que el archivo ha sido renombrado y modificado, así que debemos forzar la eliminación con la bandera -f `git rm -f LEER.md`{{execute}}
 6. Si consulta nuevamente el estado de tu repositorio `git status`{{execute}}, podrás ver que en el mensaje se te indica que el archivo en cuestión ha sido eliminado, y para la próxima confirmación, el archivo ya no estará disponible.
 7. Confirma los cambios realizados con un nuevo commit `git commit -m "Tu Mensaje de Confirmación"`.
 8. Revisa tu IDE de desarrollo y evidencia que ya no aparece el archivo README.md, el cual primero renombramos y luego eliminamos.
