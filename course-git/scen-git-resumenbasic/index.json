@@ -23,7 +23,11 @@
       {
         "title": "Paso 4 - Confirmar Cambios",
         "text": "step4.md"
-      }        
+      },
+      {
+        "title": "Paso 5 - Retos",
+        "text": "step5.md"
+      }          
     ],
     "intro": {
       "text": "intro.md"

@@ -23,4 +23,8 @@ Ahora que ya tienes el proyecto copiado en tu repositorio remoto de GitHub, real
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rP9j68HHIec" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Ingresa a tu IDE de Desarrollo y revisa que tengas los archivos descargados del repositorio remoto que acabas de clonar, si es así, sonrie, pues tenemos ya todo listo para continuar.
+Ingresa a tu IDE de Desarrollo y revisa que tengas los archivos descargados del repositorio remoto que acabas de clonar, adicionalmente en la pestaña **PORT 80** puedes ver tu proyecto desplegado en un servidor, sí -- adaptamos el ambiente con un servidor para que puedas ver tu desarrollo, si es así, sonrie, pues tenemos ya todo listo para continuar.
+
+## Tip
+
+Los cambios que vayas generando en tu desarrollo web los puedes ver en tiempo real en las pestaña PORT 80, utiliza la función de refrescar para ver cada uno de los ajustes que vayas a realizar.
