@@ -41,6 +41,11 @@
       "course_id": "scen-git-resumenbasic",
       "title": "Resumen Comandos Básicos de Git",
       "description": "Ejercicio práctico sobre los comandos básicos de Git"
+    },
+    {
+      "course_id": "scen-git-remote",
+      "title": "Trabajar con Repositorios Remotos",
+      "description": "Ejercicio práctico sobre repositorios remotos"
     }
   ]
 }
