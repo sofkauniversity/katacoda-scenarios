@@ -7,7 +7,7 @@ El nombre descriptivo te permite saber o hacer referencia a la ubicación del re
 ## Tarea Objetivo
 
 Ya sabes como obtener la URL de tu repositorio remoto en GitHub y también como clonarlo.
-Ahora en vez de clonar el repositorio remoto, vamos a agregarlo utilizando el comando `git remote add [Nombre Descriptivo] [URL]`, por ejemplo  `git remote add origin https://github.com/OcelotUproar/ocelite.git`, reemplaza la URL por el repositorio que tienes en GiHub de HojadeVida y en el nombre descriptivo pon la palabra origin.
+Ahora en vez de clonar el repositorio remoto, vamos a agregarlo utilizando el comando `git remote add [Nombre Descriptivo] [URL]`, por ejemplo  `git remote add origin https://github.com/OcelotUproar/ocelite.git`, reemplaza la URL por el repositorio que tienes en GiHub de HojadeVida y en el nombre descriptivo pon la palabra origin, debes tener inicializado un repositorio para poder crear remotos, en este caso nosotros en el ambiente de práctica lo inicializamos por ti.
 
 Si luego de crear o agregar el repositorio remoto quieres consultarlo, puedes utilizar los comando `git remote`{{execute}}, allí te aparecerá el nombre descriptivo con que etiquetamos este repositorio remoto, si tenemos más de uno aquí los podremos ver, ahora bien si quieres ver el detalle con la URL respectiva puedes ejecutar el comando `git remote -v`{{execute}}.
 
