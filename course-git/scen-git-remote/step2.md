@@ -8,7 +8,7 @@ El comando `git push` va seguido de dos parámetros. El primer parámetro es el 
 
 Vamos a iniciar a subir los cambios que realizamos a nuestro repositorio remoto, para ello realiza las siguientes actividades:
 
-1. Clona tu proyecto de *HojadeVida* desde tu repositorio remoto en GitHub al repositorio local, recuerda el comando `git clone origin /home/scrapbook/tutorial`{{execute}} en este momento origin está con la URL de tu repositorio si ejecutaste el paso anterior.
+1. Clona tu proyecto de *HojadeVida* desde tu repositorio remoto en GitHub al repositorio local, recuerda el comando `git clone [URL tu Repositorio] /home/scrapbook/tutorial`.
 2. Ingresa a tu IDE de desarrollo y modifica el archivo README.md, elimina lo que tenga en este momento y agrega el mensaje "Realizando PUSH al Servidor Remoto".
 3. Agrégalo a tu área de Preparación y procede a realizar una confirmación (Estos comandos ya los debes de tener super claros), si ejecutas `git status`{{execute}}, te debe indicar que tienes listo todo para hacer un push y la propia herramienta te lo sugiere.
 4. Ahora procedamos a compartir los cambios que hemos hecho en nuestro repositorio local con el repositorio remoto, para ello, ejecutaremos el comando `git push origin master `{{execute}}, podremos ver que se inicia un proceso de cargue y nos muestra un mensaje indicando que lo cambios fueron subidos.
