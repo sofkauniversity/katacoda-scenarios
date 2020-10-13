@@ -1,24 +1,18 @@
-**Realizar Cambios y Agregarlos al Área de Preparación**
+**Git Pull**
+
+Si `git push` le permite enviar sus cambios a un repositorio remoto, `git pull` funciona a la inversa. git pull te permite sincronizar los cambios de un repositorio remoto a tu versión local.
+
+Los cambios del repositorio remoto se fusionan automáticamente en la rama en la que está trabajando actualmente.
 
 ## Tarea Objetivo
 
-**Consulta el Historial de Confirmaciones del Repositorio Remoto**
+Para simular que alguien subió un cambio al repositorio remoto en el que estas trabajando, desde GitHub directamente realiza las siguientes actividades.
+Modifica el archivo README.md con el mensaje "Realizando PULL desde el Servidor Remoto", adicionalmente carga una nueva imagen tipo PNG o JPG en la carpeta images, puede ser tu foto, para agregarla ahora a nuestra Hoja de Vida.
 
-Recuerda que cuando clonamos un repositorio clonamos toda la historia del mismo, así que si ejecutamos el comando `git log`{{execute}}, vamos a poder ver el historial de las versiones o confirmaciones realizadas sobre ese repositorio, observando, quién, cuándo y qué.
+Mira el siguiente video para ver como modificar y subir archivos a GitHub.
 
-**Modifica Tu Desarrollo**
+**Descargar Cambio Realizados por Miembros de tu Equipo**
 
-Ahora procede a modificar en tu proyecto clonado la funcionalidad de **Información Básica** ingresando tu datos personales, modifica lo siguiente en el archivo /home/scrapbook/tutorial/`index.html`{{open}}, cambia la información en el interior de las etiquetas HTML.
+Ahora que ya tienes cambios realizados en tu repositorio remoto pero que aún tu no tienes en tu repositorio local, es hora de traer y combinar los cambios, para ello ejecuta el comando `git pull [nombre del repositorio]`, consulta el nombre descriptivo del repositorio utilizando los comandos de pasos anteriores, se debe lanzar un proceso de descarga y combinación de los cambios, cuando finalice, ingresa a tu IDE de desarrollo y verifica que los cambios se hayan descargado y combinado exitosamente.
 
-1. `<div class="h2 title">Pablo Pérez</div>` --> Coloca tu Nombre y Apellido
-2. `<p class="category text-white">Web Developer</p>` --> Coloca tu rol actual
-3. `<p>Hola! Soy Pablo Pérez, Web Developer</p>` --> Pon tu nombre y rol
-4. `<div class="col-sm-8">24</div>` --> Coloca tu edad
-5. `<div class="col-sm-8">pablo.perez@company.com</div>` --> Coloca tu correo
-6. `<div class="col-sm-8">+57 3105678901</div>` --> Coloca tu celular
-7. `<div class="col-sm-8">Cr 50 # 10 - 20, Medellín, Colombia</div>` --> Coloca tu dirección
-8. `<div class="col-sm-8">Ingles, Español, Frances</div>` --> Coloca tus idiomas
 
-**Agrega Tus Cambios al Área de Preparación**
-
-Teniendo los archivos modificados en tu repositorio local procedamos a prepararlos para crear una nueva versión con tu información personal, para ello ejecuta el comando `git status`{{execute}} y verifica que tienes un archivo modificado en tu directorio de trabajo (Working Directory), procede ahora a prepararlo, llevandolo al área de preparación (Staging Area) con el comando `git add .`{{execute}} o con el comando `git add index.html`{{execute}}, si nuevamente ejecutas `git status`{{execute}}, podrás ver que ya tiene el archivo listo para una confirmación, que realizaremos en el siguiente paso.

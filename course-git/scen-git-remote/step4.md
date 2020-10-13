@@ -1,14 +1,24 @@
-**Confirma Tus Cambios**
+**Git Fetch**
+
+El comando `git pull` es una combinación de dos comandos diferentes, git fetch y git merge. Fetch descarga los cambios del repositorio remoto en una rama separada llamada `remoto/<nombre remoto>/<nombre rama remota>` a la cual se puede acceder usando `git checkout`.
+
+Usar `git fetch` es una excelente manera de revisar los cambios sin afectar su rama actual. El formato de nomenclatura de las ramas remotas es lo suficientemente flexible como para que pueda tener varios repositorios remotos y ramas remotas con el mismo nombre y cambiar fácilmente entre ellos.
+
+El siguiente comando fusionará los cambios obtenidos en master.
+
+`git merge remoto/<nombre remoto>/<nombre rama remota> master`
+
+Cubriremos la fusión con más detalle en un escenario futuro
 
 ## Tarea Objetivo
 
-**Realizar Commit**
+Realiza nuevamente un cambio en el archivo README.md y coloca el mensaje "Realizando Fetch"
 
-Listo para confirmar tus cambios, si ya tienes todo preparado para confirmar, vamos a proceder a realizar el commit de este archivo que modificaste y tenemos ya en el área de preparación, para ello ejecuta el comando `git commit -m "Cambios Archivos Index Información Personal"`{{execute}}, ahora consulta el historial de confirmaciones a través del comando `git log`{{execute}} y mira las versiones que tienes controladas en este momento, deberías ver 2 commits, el que acabas de realizar y el que venía desde la clonación del repositorio.
+Ya que se han realizado cambios adicionales en el repositorio remoto. Use `git fetch` para descargar los cambios y luego verifique la rama para verlos, usando `git checkout [rama remota]`
 
 ## Tip
 
-**Recuerda:** Si quieres pasar tus archivos sin llevarlos al área de preparación (Staging Area) inicialmente, sino hacerlo directamente desde el directorio de trabajo (Working Directory), es decir no ejecutar el comando `git add`, lo puedes hacer utilizando el comando `git commit -a -m "Tu Mensaje de Confirmación"`, este comando con la bandera o parámetro *-a* agrega tus archivos al área de preparación y realiza la confirmación en solo un paso.
+Puede ver una lista de todas las ramas remotas usando el comando `git branch -r`{{execute}}
 
 
 

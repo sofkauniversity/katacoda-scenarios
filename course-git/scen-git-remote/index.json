@@ -17,17 +17,13 @@
         "text": "step2.md"
       },
       {
-        "title": "Paso 3 - Modificar y Preparar",
+        "title": "Paso 3 - Git Pull",
         "text": "step3.md"
       },
       {
-        "title": "Paso 4 - Confirmar Cambios",
+        "title": "Paso 4 - Git Fech",
         "text": "step4.md"
-      },
-      {
-        "title": "Paso 5 - Retos",
-        "text": "step5.md"
-      }          
+      }       
     ],
     "intro": {
       "text": "intro.md"
