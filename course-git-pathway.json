@@ -46,6 +46,11 @@
       "course_id": "scen-git-remote",
       "title": "Trabajar con Repositorios Remotos",
       "description": "Ejercicio práctico sobre repositorios remotos"
+    },
+    {
+      "course_id": "scen-git-branch",
+      "title": "Trabajar con Ramas",
+      "description": "Ejercicio práctico sobre ramificación en Git"
     }
   ]
 }
