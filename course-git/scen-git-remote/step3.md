@@ -11,6 +11,8 @@ Modifica el archivo README.md con el mensaje "Realizando PULL desde el Servidor 
 
 Mira el siguiente video para ver como modificar y subir archivos a GitHub.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K7CDvrB5WxU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Descargar Cambio Realizados por Miembros de tu Equipo**
 
 Ahora que ya tienes cambios realizados en tu repositorio remoto pero que aún tu no tienes en tu repositorio local, es hora de traer y combinar los cambios, para ello ejecuta el comando `git pull [nombre del repositorio]`, consulta el nombre descriptivo del repositorio utilizando los comandos de pasos anteriores, se debe lanzar un proceso de descarga y combinación de los cambios, cuando finalice, ingresa a tu IDE de desarrollo y verifica que los cambios se hayan descargado y combinado exitosamente.
