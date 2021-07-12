@@ -16,7 +16,7 @@ Consultar el contenedor iniciado con la imagen del servidor-apache, para ello ej
 
 `docker ps`{{execute}}
 
-Deberíamos observar el contenedor del servidor-apache corriendo, adicionalmente si queremos verificarlo, podemos ir a la pestaña de **Port 80** en Katacoda y deberíamos ver una imagen como la siguiente ![Servidor Apache](./assets/apache.png)
+Deberíamos observar el contenedor del servidor-apache corriendo, adicionalmente si queremos verificarlo, podemos ir a la pestaña de **Port 80** en Katacoda y deberíamos ver una imagen como la siguiente [ServidorApache](https://imgur.com/3F4DFop)
 
 Esto significa que nuestro servidor está ejecutandose correctamente y disponible.
 
