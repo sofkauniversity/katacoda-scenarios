@@ -6,6 +6,11 @@
         "course_id": "scen-docker-search",
         "title": "Buscar y Descargar Imágenes de Docker Hub",
         "description": "Ejercita tus habilidades, buscando, descargando y consultando imágenes en docker"
+      },
+      {
+        "course_id": "scen-docker-build",
+        "title": "Construir Nuestra Propia Imagen en Docker",
+        "description": "Ejercita tus habilidades creando tu propia imagen en docker"
       }
     ]
   }
