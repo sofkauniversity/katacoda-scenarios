@@ -20,9 +20,17 @@
           "text": "step3.md"
         },
         {
-          "title": "Paso 4 - Docker PS",
+          "title": "Paso 4 - Docker Ps",
           "text": "step4.md"
-        } 
+        },
+        {
+          "title": "Paso 5 - Docker Stop",
+          "text": "step5.md"
+        },
+        {
+          "title": "Paso 6 - Docker Start",
+          "text": "step6.md"
+        }  
       ],
       "intro": {
         "text": "intro.md"
