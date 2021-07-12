@@ -11,6 +11,11 @@
         "course_id": "scen-docker-build",
         "title": "Construir Nuestra Propia Imagen en Docker",
         "description": "Ejercita tus habilidades creando tu propia imagen en docker"
+      },
+      {
+        "course_id": "scen-docker-rm",
+        "title": "Otros Comandos de Utilidad en Docker",
+        "description": "Ejercita tus habilidades utilizando otros comandos de docker"
       }
     ]
   }

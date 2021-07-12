@@ -18,7 +18,7 @@ Al ejecutar este comando podremos obtener el ID del Contenedor, para saber cual 
 
 `docker stop ID-Contenedor`{{execute}}
 
-Para ello en el campo ID-Contenedor, deberás reemplazarlo por el ID que obtuviste al ejecutar el comando $ docker ps
+Para ello en el campo ID-Contenedor, deberás reemplazarlo por el ID que obtuviste al ejecutar el comando $ docker ps , al ejecutar el comando debes esperar unos segundos que se muestre el ID del contenedor detenido.
 
 Finalmente si ejecutamos el comando `docker ps`{{execute}} , vamos a ver que ya no aparece el contenedor en ejecución, para poder verlo deberemos ejecutar 
 la instrucción `docker ps -a`{{execute}} que nos permite ver todos los contenedores, tanto los que están en ejecución como los detenidos.
