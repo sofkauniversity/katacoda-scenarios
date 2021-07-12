@@ -1,26 +1,26 @@
 {
     "noindex": true,
-    "title": "Comandos Básicos de Docker Imágenes Preconstruidas",
-    "description": "Ejercicios Docker Comandos Buscar, Consultar y Descargar",
+    "title": "Comandos Básicos de Docker Construir Nuestra Imagen",
+    "description": "Ejercicios Docker Crear Imagen",
     "difficulty": "Principiante",
-    "time": "15 minutos",
+    "time": "20 minutos",
     "details": {
       "steps": [
         {
-          "title": "Paso 1 - Version Docker",
+          "title": "Paso 1 - Docker Build",
           "text": "step1.md",
           "code": "foreground.sh"
         },
         {
-          "title": "Paso 2 - Docker Search",
+          "title": "Paso 2 - Docker Images",
           "text": "step2.md"
         },
         {
-          "title": "Paso 3 - Docker Pull",
+          "title": "Paso 3 - Docker Run",
           "text": "step3.md"
         },
         {
-          "title": "Paso 4 - Docker Images",
+          "title": "Paso 4 - Docker PS",
           "text": "step4.md"
         } 
       ],

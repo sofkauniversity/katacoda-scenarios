@@ -38,14 +38,14 @@ Para ello ejecutamos el comando `nano dockerfile`{{execute}} que nos permite abr
 - Comandos a Ingresar en el DockerFile:
 
 <pre class="file" data-target="clipboard">
-FROM ubuntu  # ← (sistema operativo base)
-RUN apt update -y && apt upgrade -y  # ← (comandos de actualización)
-RUN DEBIAN_FRONTEND="noninteractive" apt install apache2 -y  #← (comandos de instalación servidor apache)
-EXPOSE 80  #← (puerto por el cual nuestra aplicación será expuesta)
-ENTRYPOINT /usr/sbin/apache2ctl -D FOREGROUND # ← (comando para iniciar la aplicación)
+FROM ubuntu
+RUN apt update -y && apt upgrade -y
+RUN DEBIAN_FRONTEND="noninteractive" apt install apache2 -y
+EXPOSE 80
+ENTRYPOINT /usr/sbin/apache2ctl -D FOREGROUND
 </pre>
 
-Para guardar la información en el archivo debes presionar ctrl+x y guardar los cambios.
+Para guardar la información en el archivo debes presionar en la terminal ctrl+x luego indicar que deseas guardar los cambios presionando la letra Y y finalmente presionar Enter.
 
 **No te preocupes sino entiendes los comandos que anteriormente incluimos al archivo dockerfile, estos no estan en el alcance del curso, pero posteriormene los vas a ir entendiendo.**
 

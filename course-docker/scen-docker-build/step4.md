@@ -1,25 +1,23 @@
-**Consultar Imágenes en Docker**
+**Ver Contenedores en Ejecución**
 
-Ahora nos interesa poder consultar y listar las imágenes que hemos descargado, para ello utilizaremos el comando:
+Ahora que ya tenemos nuestro contenedor ejecutándose o corriendo, queremos poder ver cuales contenedores tenemos en ejecución en nuestra máquina o servidor, para ello podremos utilizar el comando:
 
-> $ docker images
+> $ docker ps
 
-Si quieres consultar una imagen específica dado que conoces el nombre con que la descargaste o creaste puedes utilizar el comando:
+Este comando nos permite ver que contenedores se encuentran en ejecución, adicionalmente si procedemos a detener un contenedor, deberemos utilizar este comando con la bandera (--all), para ver todos los contenedores incluso los detenidos.
 
-> $ docker images "NombreImagen" 
+> $ docker ps -a
 
-Si adicionalmente conoces la versión o el tag con que fué creado puedes utilizar el comando:
-
-> $ docker images "NombreImagen" : "VersionImagen"
-
-En el paso anterior debimos descargar dos imagenes desde docker hub, así que procederemos a consultar las imagenes descargadas.
+Este comando nos muestra todos los contenedores incluso los que están en estado detenido.
 
 ## Tarea Objetivo
 
-Consultar las imágenes anteriormente descargadas, para ello utiliza el comando:
+Consultar el contenedor iniciado con la imagen del servidor-apache, para ello ejecutar la instrucción:
 
-`docker images`{{execute}}
+`docker ps`{{execute}}
 
-Adicionalmente prueba consultando imagenes por el nombre y por el nombre y versión.
+Deberíamos observar el contenedor del servidor-apache corriendo, adicionalmente si queremos verificarlo, podemos ir a la pestaña de **Port 80** en Katacoda y deberíamos ver una imagen como la siguiente ![Servidor Apache](./assets/apache.png)
 
-Si quieres consultar todas las opciones que nos ofrece este comando puedes ingresar [aqui](https://docs.docker.com/engine/reference/commandline/images/)
+Esto significa que nuestro servidor está ejecutandose correctamente y disponible.
+
+Si quieres consultar todas las opciones que nos ofrece este comando puedes ingresar [aqui](https://docs.docker.com/engine/reference/commandline/ps/)
