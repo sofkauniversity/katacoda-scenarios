@@ -9,7 +9,6 @@
         {
           "title": "Paso 1 - Version Docker",
           "text": "step1.md",
-          "courseData": "launch.sh",
           "code": "foreground.sh"
         },
         {
