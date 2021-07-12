@@ -1,6 +1,6 @@
 {
     "noindex": true,
-    "title": "Práctiquemos los Comandos Básicos de Docker para Buscar, Consultar y Descargar Imagenes de Docker Hub ya Preconstruidas",
+    "title": "Comandos Básicos de Docker Imágenes Preconstruidas",
     "description": "Ejercicios Docker Comandos Buscar, Consultar y Descargar",
     "difficulty": "Principiante",
     "time": "15 minutos",
@@ -9,7 +9,8 @@
         {
           "title": "Paso 1 - Version Docker",
           "text": "step1.md",
-          "courseData": "launch.sh"
+          "courseData": "launch.sh",
+          "code": "foreground.sh"
         },
         {
           "title": "Paso 2 - Docker Search",
