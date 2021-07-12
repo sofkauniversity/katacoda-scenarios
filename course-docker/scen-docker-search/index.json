@@ -1,0 +1,50 @@
+{
+    "noindex": true,
+    "title": "Práctiquemos los Comandos Básicos de Docker para Buscar, Consultar y Descargar Imagenes de Docker Hub ya Preconstruidas",
+    "description": "Ejercicios Docker Comandos Buscar, Consultar y Descargar",
+    "difficulty": "Principiante",
+    "time": "15 minutos",
+    "details": {
+      "steps": [
+        {
+          "title": "Paso 1 - Version Docker",
+          "text": "step1.md",
+          "courseData": "launch.sh"
+        },
+        {
+          "title": "Paso 2 - Docker Search",
+          "text": "step2.md"
+        },
+        {
+          "title": "Paso 3 - Docker Pull",
+          "text": "step3.md"
+        },
+        {
+          "title": "Paso 4 - Docker Images",
+          "text": "step4.md"
+        } 
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "showide": true,
+      "showdashboards": true,
+      "delayToSaveFileAfterStopTypingMilliseconds": 2000,
+      "autoFormatEnable": false,
+      "idePort": 23000,
+      "uieditorpath": "/home/scrapbook/tutorial/",
+      "dashboards": [
+        {"name": "Port 80", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+      ],
+      "uilayout": "terminal-iframe"
+    },
+    "backend": {
+      "imageid": "ubuntu:2004",
+      "port": 80
+    }
+  }

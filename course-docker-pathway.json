@@ -1,0 +1,12 @@
+{
+    "title": "Docker Essentials",
+    "description": "Bienvenido a la sección de práctica del curso de Docker Essential en KataCoda",
+    "courses": [
+      {
+        "course_id": "scen-docker-search",
+        "title": "Buscar y Descargar Imágenes de Docker Hub",
+        "description": "Ejercita tus habilidades, buscando, descargando y consultando imágenes en docker"
+      }
+    ]
+  }
+  
