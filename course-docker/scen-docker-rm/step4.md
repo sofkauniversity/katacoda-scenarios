@@ -1,25 +1,21 @@
-**Consultar Imágenes en Docker**
+**Login Docker Hub Terminal**
 
-Ahora nos interesa poder consultar y listar las imágenes que hemos descargado, para ello utilizaremos el comando:
+Siguiendo con nuestro proceso de aprendizaje en comandos básicos de docker, ahora veremos otros comando útiles que nos permitirán sacar aún más provecho de esta herramienta.
 
-> $ docker images
+> $ docker login
 
-Si quieres consultar una imagen específica dado que conoces el nombre con que la descargaste o creaste puedes utilizar el comando:
+Este comando nos permite iniciar sesión en el docker hub para acceder a las imágenes en nuestros repositorios privados o públicos, para hacer uso de este comando es necesario crear una cuenta en docker hub, ya aprendimos en videos anteriores como crear una cuenta en docker hub.
 
-> $ docker images "NombreImagen" 
-
-Si adicionalmente conoces la versión o el tag con que fué creado puedes utilizar el comando:
-
-> $ docker images "NombreImagen" : "VersionImagen"
-
-En el paso anterior debimos descargar dos imagenes desde docker hub, así que procederemos a consultar las imagenes descargadas.
+Vamos a usar el comando docker login para iniciar sesión en nuestra consola o terminal.
 
 ## Tarea Objetivo
 
-Consultar las imágenes anteriormente descargadas, para ello utiliza el comando:
+Iniciar Sesión en Docker Hub a través de la terminal:
 
-`docker images`{{execute}}
+1.  Vamos a usar la siguiente instrucción para iniciar sesión `docker login -u NombreUsuario`{{execute}}, reemplazar NombreUsuario por el usuario con que realizaron la creación de la cuenta en docker hub.
+2. Al ejecutar el comando anterior se nos pedirá que diligenciemos la contraseña (password), procedamos a diligenciar el password y presionar enter.
+3. Finalmente se mostrará un mensaje indicando que el login fué exitoso.
 
-Adicionalmente prueba consultando imagenes por el nombre y por el nombre y versión.
+Ya que tenemos conexión con nuestro repositorio de docker hub, ahora procederemos a ver los comandos que nos permiten subir y descargar imágenes de nuestro equipo local al servidor en la nube de docker hub.
 
-Si quieres consultar todas las opciones que nos ofrece este comando puedes ingresar [aqui](https://docs.docker.com/engine/reference/commandline/images/)
+Si quieres consultar todas las opciones que nos ofrece este comando puedes ingresar [aqui](https://docs.docker.com/engine/reference/commandline/login/)

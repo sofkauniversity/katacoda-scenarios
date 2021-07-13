@@ -1,9 +1,9 @@
 {
     "noindex": true,
-    "title": "Comandos Básicos de Docker Imágenes Preconstruidas",
+    "title": "Otros Comandos de Utilidad En Docker",
     "description": "Ejercicios Docker Comandos Buscar, Consultar y Descargar",
-    "difficulty": "Principiante",
-    "time": "15 minutos",
+    "difficulty": "Intermedio",
+    "time": "40 minutos",
     "details": {
       "steps": [
         {

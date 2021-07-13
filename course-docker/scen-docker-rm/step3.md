@@ -1,24 +1,26 @@
-**Descargar Imágenes de Docker Hub**
+**Eliminar Imágenes en Docker**
 
-Ya aprendimos a utilizar el comando para buscar una imagen preconstruida en docker hub, ahora aprenderemos a utilizar la instrucción que nos permitirá descargar y poder utilizar la imagen requerida desde docker hub. Para ello utilizamos el siguiente comando:
+Otra funcionalidad que nos permite docker es eliminar las imágenes que hemos descargado o construido para ello utilizamos el comando:
 
-> $ docker pull "NombreDeLaImagen"
+> $ docker rmi ID-imagen
 
-El anterior comando descargará la última versión compilada en Docker Hub.
+Este comando nos permite eliminar imágenes almacenadas en nuestra máquina, para hacer uso de este comando debemos realizar el siguiente procedimiento:
 
-Si por el contrario queremos descargar una versión específica de la imagen, lo que podemos realizar es ejecutar el siguiente comando:
+1. Consultar el ID-Imagen con el comando `docker images`{{execute}}
 
-> $ docker pull "NombreDeLaImagen" : "VersionImagen"
+2. Eejcutar el comando `docker rmi ID-imagen`{{execute}}
+
+**Importante**: Para poder eliminar una imagen, no debe existir un contenedor en ejecución con esta imagen, así que si quieres eliminar una imagen primero asegurate que no esté corriendo sobre algún contenedor.
 
 ## Tarea Objetivo
 
-Descargar de Docker Hub las siguientes imágenes:
+- Eliminar la imagen de Jenkins de nuestra máquina.
 
-- Imagen oficial de Jenkins la última versión
-- Imagen oficial de mySQL version 5.7.34
+Para realizar este proceso, como en el paso anterior detuvimos y eliminamos el contenedor que estaba ejecutando la imagen de jenkins, es simple realizar el proceso, pues no debemos detener nada, para ello debemos ejecutar los siguientes pasos:
 
-Te ayudamos con el primero:
+1. Consulte el ID-imagen con el comando `docker images`{{execute}}, copielo y posteriormente
+2. Ejecute la instrucción `docker rmi ID-imagen`{{execute}} ó `docker rmi jenkins`{{execute}}, pegando en el ID-imagen el id del contenedor copiado.
 
-`docker pull jenkins`{{execute}}
+Si ejecutaste estos pasos, estamos listos, ya nuestra imagen debió quedar eliminada, para verificarlo ejecute el comando `docker images`{{execute}} y ya no deberá aparecer dicha imagen en la lista de imagenes descargadas.
 
-Si quieres consultar todas las opciones que nos ofrece este comando puedes ingresar [aqui](https://docs.docker.com/engine/reference/commandline/pull/)
+Si quieres consultar todas las opciones que nos ofrece este comando puedes ingresar [aqui](https://docs.docker.com/engine/reference/commandline/rmi/)
